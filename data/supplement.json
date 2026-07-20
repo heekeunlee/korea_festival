@@ -60,6 +60,51 @@
       "tel": null,
       "link": "https://map.kakao.com/link/search/태백 해바라기축제",
       "source": "manual"
+    },
+    {
+      "id": "sup-sancheong-summernight-2026",
+      "title": "2026 ON산청 빛나는 여름밤 페스티벌",
+      "sido": "경남",
+      "sigungu": "산청군",
+      "addr": "경상남도 산청군 산청읍 웅석봉로86번길 7 조산공원 (경호강변)",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-01",
+      "lat": 35.4096415,
+      "lng": 127.8725722,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/조산공원,35.4096415,127.8725722",
+      "source": "manual"
+    },
+    {
+      "id": "sup-yeongildae-sand-2026",
+      "title": "2026 영일대 샌드페스티벌",
+      "sido": "경북",
+      "sigungu": "포항시",
+      "addr": "경상북도 포항시 북구 두호동 영일대해수욕장 일원",
+      "startDate": "2026-07-25",
+      "endDate": "2026-07-26",
+      "lat": 36.0558264,
+      "lng": 129.3781837,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/영일대해수욕장,36.0558264,129.3781837",
+      "source": "manual"
+    },
+    {
+      "id": "sup-danyang-namcheon-2026",
+      "title": "2026 영춘면 남천계곡 물놀이축제",
+      "sido": "충북",
+      "sigungu": "단양군",
+      "addr": "충청북도 단양군 영춘면 남천계곡 및 솔밭공원 일원",
+      "startDate": "2026-07-31",
+      "endDate": "2026-08-02",
+      "lat": 37.0415583,
+      "lng": 128.5142624,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/남천계곡,37.0415583,128.5142624",
+      "source": "manual"
     }
   ]
 }
