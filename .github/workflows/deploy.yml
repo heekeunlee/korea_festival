@@ -1,0 +1,66 @@
+name: Collect & Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 21 * * *'   # 매일 06:00 KST (UTC 21:00)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # 인증키가 등록돼 있으면 최신 데이터를 수집한다.
+      # 키가 없거나 수집이 실패해도(continue-on-error) 저장소에 커밋된
+      # data/festivals.json 을 그대로 사용해 배포가 멈추지 않는다.
+      - name: Collect latest festivals
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        continue-on-error: true
+        run: node scripts/collect.mjs
+
+      - name: Commit refreshed data
+        if: ${{ github.event_name != 'pull_request' }}
+        run: |
+          if ! git diff --quiet -- data/festivals.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/festivals.json
+            git commit -m "chore: refresh festival data [skip ci]"
+            git push
+          fi
+
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
