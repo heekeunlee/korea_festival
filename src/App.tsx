@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import type { Festival, FestivalData, Status } from './types';
 import { statusOf, dday, infoLink, mapLink } from './types';
 import FestivalMap from './FestivalMap';
-import MonthChart from './MonthChart';
 import CalendarView from './CalendarView';
 
 const SIDO_ORDER = [
@@ -120,7 +119,14 @@ export default function App() {
     <div className="app">
       <header className="header">
         <div>
-          <h1>🏖️ 방구석 탈출 지도</h1>
+          <h1>
+            🏖️ 방구석 탈출 지도
+            <span className="updated" title="데이터 최종 갱신 시각">
+              🔄 {new Date(data.updatedAt).toLocaleString('ko-KR', {
+                month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit',
+              })} 갱신
+            </span>
+          </h1>
           <div className="sub">
             휴가철 지역 축제·행사를 지도와 캘린더로 한눈에 · 총 {data.count.toLocaleString()}건
           </div>
@@ -295,14 +301,6 @@ export default function App() {
             )}
           </div>
         </div>
-      </div>
-
-      <div className="panel chart-panel">
-        <div className="panel-head">
-          <h2>월별 분포</h2>
-          <span className="hint">향후 12개월 · 현재 필터 기준 {filtered.length}건</span>
-        </div>
-        <MonthChart festivals={filtered} today={today} />
       </div>
 
       <div className="footer">
