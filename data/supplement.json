@@ -105,6 +105,21 @@
       "tel": null,
       "link": "https://map.kakao.com/link/map/남천계곡,37.0415583,128.5142624",
       "source": "manual"
+    },
+    {
+      "id": "sup-gyeongpo-summer-2026",
+      "title": "2026 경포 썸머페스티벌",
+      "sido": "강원",
+      "sigungu": "강릉시",
+      "addr": "강원특별자치도 강릉시 강문동 경포해변 특설무대 및 중앙광장",
+      "startDate": "2026-07-30",
+      "endDate": "2026-08-05",
+      "lat": 37.8054952,
+      "lng": 128.9082081,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/경포해변,37.8054952,128.9082081",
+      "source": "manual"
     }
   ]
 }
