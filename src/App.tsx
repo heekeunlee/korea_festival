@@ -74,7 +74,7 @@ export default function App() {
     <div className="app">
       <header className="header">
         <div>
-          <h1>🎪 전국 축제 대시보드</h1>
+          <h1>🏖️ 방구석 탈출 지도</h1>
           <div className="sub">
             휴가철 지역 축제·행사를 지도와 캘린더로 한눈에 · 총 {data.count.toLocaleString()}건
           </div>
