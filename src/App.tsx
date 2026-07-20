@@ -3,6 +3,7 @@ import type { Festival, FestivalData, Status } from './types';
 import { statusOf, dday, infoLink, mapLink } from './types';
 import FestivalMap from './FestivalMap';
 import MonthChart from './MonthChart';
+import CalendarView from './CalendarView';
 
 const SIDO_ORDER = [
   '서울', '경기', '인천', '강원', '충북', '충남', '대전', '세종',
@@ -31,6 +32,8 @@ export default function App() {
   const [fromDate, setFromDate] = useState<string>(''); // 구간 시작 'YYYY-MM-DD'
   const [toDate, setToDate] = useState<string>('');     // 구간 종료
   const [selected, setSelected] = useState<Festival | null>(null);
+  const [mainView, setMainView] = useState<'map' | 'calendar'>('map');
+  const [calMonth, setCalMonth] = useState<string>(() => new Date().toISOString().slice(0, 7));
   const { isDark, toggle } = useTheme();
 
   const today = new Date().toISOString().slice(0, 10);
@@ -71,6 +74,17 @@ export default function App() {
       return true;
     });
   }, [data, query, sido, statusFilter, dateActive, lo, hi, today]);
+
+  // 캘린더는 날짜 필터와 독립적으로 지역·검색만 반영한다(캘린더 자체가 날짜 탐색 도구).
+  const calFiltered = useMemo(() => {
+    if (!data) return [];
+    const q = query.trim().toLowerCase();
+    return data.festivals.filter((f) => {
+      if (sido !== '전체' && f.sido !== sido) return false;
+      if (q && !(`${f.title} ${f.sido} ${f.sigungu ?? ''} ${f.addr}`.toLowerCase().includes(q))) return false;
+      return true;
+    });
+  }, [data, query, sido]);
 
   const kpi = useMemo(() => {
     const all = data?.festivals ?? [];
@@ -192,10 +206,29 @@ export default function App() {
       <div className="main-grid">
         <div className="panel">
           <div className="panel-head">
-            <h2>지도</h2>
-            <span className="hint">{filtered.filter((f) => f.lat != null).length}개 표시 · 핀 클릭 시 목록 강조</span>
+            <div className="view-toggle">
+              <button className={mainView === 'map' ? 'on' : ''} onClick={() => setMainView('map')}>🗺️ 지도</button>
+              <button className={mainView === 'calendar' ? 'on' : ''} onClick={() => setMainView('calendar')}>📅 캘린더</button>
+            </div>
+            <span className="hint">
+              {mainView === 'map'
+                ? `${filtered.filter((f) => f.lat != null).length}개 표시 · 핀 클릭 시 목록 강조`
+                : '날짜 클릭 시 그날로 필터'}
+            </span>
           </div>
-          <FestivalMap festivals={filtered} today={refDate} selected={selected} onSelect={setSelected} />
+          {mainView === 'map' ? (
+            <FestivalMap festivals={filtered} today={refDate} selected={selected} onSelect={setSelected} />
+          ) : (
+            <CalendarView
+              festivals={calFiltered}
+              month={calMonth}
+              onMonth={setCalMonth}
+              onPick={(d) => { setFromDate(d); setToDate(d); }}
+              today={today}
+              from={fromDate}
+              to={toDate}
+            />
+          )}
         </div>
 
         <div className="panel">
