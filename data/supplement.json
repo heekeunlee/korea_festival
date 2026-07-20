@@ -135,6 +135,36 @@
       "tel": null,
       "link": "https://place.map.kakao.com/7815925",
       "source": "manual"
+    },
+    {
+      "id": "sup-gmf-2026",
+      "title": "2026 그랜드 민트 페스티벌 (GMF)",
+      "sido": "서울",
+      "sigungu": "송파구",
+      "addr": "서울특별시 송파구 올림픽로 424 올림픽공원 88잔디마당 일원",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "lat": 37.5189195,
+      "lng": 127.1251435,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/올림픽공원,37.5189195,127.1251435",
+      "source": "manual"
+    },
+    {
+      "id": "sup-edc-korea-2026",
+      "title": "2026 EDC 코리아 (일렉트릭 데이지 카니발)",
+      "sido": "인천",
+      "sigungu": "영종구",
+      "addr": "인천광역시 영종구 공항문화로 127 인스파이어 리조트",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "lat": 37.4666083,
+      "lng": 126.3905461,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/map/인스파이어 아레나,37.4666083,126.3905461",
+      "source": "manual"
     }
   ]
 }
