@@ -120,6 +120,21 @@
       "tel": null,
       "link": "https://map.kakao.com/link/map/경포해변,37.8054952,128.9082081",
       "source": "manual"
+    },
+    {
+      "id": "sup-sinan-tulip-2026",
+      "title": "2026 신안 섬 튤립축제",
+      "sido": "전남",
+      "sigungu": "신안군",
+      "addr": "전라남도 신안군 임자면 대광해수욕장·1004섬 튤립정원 (임자도)",
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-19",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "tel": null,
+      "link": "https://place.map.kakao.com/7815925",
+      "source": "manual"
     }
   ]
 }
