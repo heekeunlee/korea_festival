@@ -129,6 +129,7 @@ select.region-select {
   font-size: 13px; font-family: inherit; padding: 3px 2px; color-scheme: light dark;
 }
 .date-pick input[type='date']:focus { outline: none; }
+.date-sep { color: var(--text-muted); font-size: 13px; }
 .date-btn {
   border: none; background: var(--surface-0); color: var(--text-secondary);
   border-radius: 6px; padding: 4px 9px; font-size: 12px; cursor: pointer;

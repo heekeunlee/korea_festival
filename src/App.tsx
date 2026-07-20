@@ -28,11 +28,26 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [sido, setSido] = useState('전체');
   const [statusFilter, setStatusFilter] = useState<Status | 'all'>('all');
-  const [pickedDate, setPickedDate] = useState<string>(''); // 'YYYY-MM-DD', 빈 문자열이면 날짜 필터 없음
+  const [fromDate, setFromDate] = useState<string>(''); // 구간 시작 'YYYY-MM-DD'
+  const [toDate, setToDate] = useState<string>('');     // 구간 종료
   const [selected, setSelected] = useState<Festival | null>(null);
   const { isDark, toggle } = useTheme();
 
   const today = new Date().toISOString().slice(0, 10);
+  const dateActive = fromDate !== '' || toDate !== '';
+  // 한쪽만 지정해도 열린 구간으로 동작한다.
+  const lo = fromDate || '0000-01-01';
+  const hi = toDate || '9999-12-31';
+
+  // 이번 주말(토~일) 계산 프리셋용
+  const weekend = (() => {
+    const d = new Date(today + 'T00:00:00');
+    const sat = new Date(d);
+    sat.setDate(d.getDate() + ((6 - d.getDay() + 7) % 7));
+    const sun = new Date(sat);
+    sun.setDate(sat.getDate() + 1);
+    return [sat.toISOString().slice(0, 10), sun.toISOString().slice(0, 10)] as const;
+  })();
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}festivals.json`)
@@ -46,37 +61,43 @@ export default function App() {
     const q = query.trim().toLowerCase();
     return data.festivals.filter((f) => {
       if (sido !== '전체' && f.sido !== sido) return false;
-      // 날짜를 지정하면 그날 진행 중(개최 기간에 포함)인 축제만. 상태 필터보다 우선한다.
-      if (pickedDate) {
-        if (!(f.startDate <= pickedDate && f.endDate >= pickedDate)) return false;
+      // 날짜 구간을 지정하면 그 구간과 겹치는(기간이 걸치는) 축제만. 상태 필터보다 우선한다.
+      if (dateActive) {
+        if (!(f.startDate <= hi && f.endDate >= lo)) return false;
       } else if (statusFilter !== 'all' && statusOf(f, today) !== statusFilter) {
         return false;
       }
       if (q && !(`${f.title} ${f.sido} ${f.sigungu ?? ''} ${f.addr}`.toLowerCase().includes(q))) return false;
       return true;
     });
-  }, [data, query, sido, statusFilter, pickedDate, today]);
+  }, [data, query, sido, statusFilter, dateActive, lo, hi, today]);
 
   const kpi = useMemo(() => {
     const all = data?.festivals ?? [];
     const thisMonth = today.slice(0, 7);
-    // 날짜를 지정하면 첫 KPI를 '그날 진행 중' 개수로 바꾼다.
-    const refDate = pickedDate || today;
+    // 날짜 구간을 지정하면 첫 KPI를 '그 구간에 열리는' 개수로 바꾼다.
+    const klo = dateActive ? lo : today;
+    const khi = dateActive ? hi : today;
     return {
-      ongoing: all.filter((f) => f.startDate <= refDate && f.endDate >= refDate).length,
+      ongoing: all.filter((f) => f.startDate <= khi && f.endDate >= klo).length,
       thisMonth: all.filter((f) => f.startDate.slice(0, 7) === thisMonth || (f.startDate <= today && f.endDate >= today)).length,
       total: all.length,
       regions: new Set(all.map((f) => f.sido)).size,
     };
-  }, [data, today, pickedDate]);
+  }, [data, today, dateActive, lo, hi]);
 
   const regions = useMemo(() => {
     const present = new Set((data?.festivals ?? []).map((f) => f.sido));
     return SIDO_ORDER.filter((s) => present.has(s));
   }, [data]);
 
-  // 지도 마커 색과 목록 배지는 기준일에 맞춘다(날짜 지정 시 그날, 아니면 오늘).
-  const refDate = pickedDate || today;
+  // 지도 마커 색과 목록 배지는 기준일에 맞춘다(구간 지정 시 구간 시작일, 아니면 오늘).
+  const refDate = fromDate || today;
+  const fmt = (s: string) => s.slice(5).replace('-', '.');
+  const rangeText =
+    fromDate && toDate ? `${fmt(fromDate)} ~ ${fmt(toDate)} 사이 열리는 축제`
+    : fromDate ? `${fmt(fromDate)}부터 열리는 축제`
+    : `${fmt(toDate)}까지 열리는 축제`;
 
   if (error) return <div className="app"><div className="empty">⚠️ {error}</div></div>;
   if (!data) return <div className="app"><div className="empty">불러오는 중…</div></div>;
@@ -97,7 +118,7 @@ export default function App() {
 
       <section className="kpi-row">
         <div className="kpi accent">
-          <div className="label">{pickedDate ? `${pickedDate.slice(5).replace('-', '/')} 진행 중` : '지금 진행 중'}</div>
+          <div className="label">{dateActive ? '해당 기간 열림' : '지금 진행 중'}</div>
           <div className="value">{kpi.ongoing}<span className="unit">건</span></div>
         </div>
         <div className="kpi accent2">
@@ -130,19 +151,29 @@ export default function App() {
           <span aria-hidden>📅</span>
           <input
             type="date"
-            value={pickedDate}
-            onChange={(e) => setPickedDate(e.target.value)}
-            aria-label="날짜 지정"
+            value={fromDate}
+            max={toDate || undefined}
+            onChange={(e) => setFromDate(e.target.value)}
+            aria-label="시작일"
           />
-          <button className="date-btn" onClick={() => setPickedDate(today)}>오늘</button>
-          {pickedDate && (
-            <button className="date-btn clear" onClick={() => setPickedDate('')}>✕ 해제</button>
+          <span className="date-sep">~</span>
+          <input
+            type="date"
+            value={toDate}
+            min={fromDate || undefined}
+            onChange={(e) => setToDate(e.target.value)}
+            aria-label="종료일"
+          />
+          <button className="date-btn" onClick={() => { setFromDate(today); setToDate(today); }}>오늘</button>
+          <button className="date-btn" onClick={() => { setFromDate(weekend[0]); setToDate(weekend[1]); }}>이번 주말</button>
+          {dateActive && (
+            <button className="date-btn clear" onClick={() => { setFromDate(''); setToDate(''); }}>✕ 해제</button>
           )}
         </div>
 
-        {pickedDate ? (
+        {dateActive ? (
           <span className="date-note">
-            📅 <b>{pickedDate.replace(/-/g, '.')}</b> 진행 중인 축제만 표시 중
+            📅 <b>{rangeText}</b> 표시 중
           </span>
         ) : (
           (['all', 'ongoing', 'upcoming', 'ended'] as const).map((s) => (
