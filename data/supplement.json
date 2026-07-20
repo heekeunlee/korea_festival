@@ -1,0 +1,65 @@
+{
+  "_comment": "TourAPI(한국관광공사)에 아직 없는 소지역·소규모 축제 수동 보강분. 크롬/네이버 MCP로 개최일자를 검증한 항목만 등록한다. collect.mjs 가 이 파일을 festivals.json 에 병합한다. 좌표(lat/lng)는 네이버 지역검색으로 확인된 경우만 채우고, 미확인은 null 로 두되 link(카카오맵)로 정확한 위치를 연결한다.",
+  "festivals": [
+    {
+      "id": "sup-songdo-beer-2026",
+      "title": "2026 인천 송도맥주축제",
+      "sido": "인천",
+      "sigungu": "연수구",
+      "addr": "인천광역시 연수구 센트럴로 350 송도달빛축제공원",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-30",
+      "lat": 37.4061916,
+      "lng": 126.6351634,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/search/송도달빛축제공원",
+      "source": "manual"
+    },
+    {
+      "id": "sup-yeongdong-grape-2026",
+      "title": "2026 영동포도축제",
+      "sido": "충북",
+      "sigungu": "영동군",
+      "addr": "충청북도 영동군 레인보우 힐링관광지 일원",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "tel": null,
+      "link": "https://place.map.kakao.com/1437327934",
+      "source": "manual"
+    },
+    {
+      "id": "sup-daejeon-0si-2026",
+      "title": "2026 대전 0시축제",
+      "sido": "대전",
+      "sigungu": "중구",
+      "addr": "대전광역시 중구 중앙로 으능정이 문화의거리 및 원도심 일원",
+      "startDate": "2026-08-07",
+      "endDate": "2026-08-17",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "tel": null,
+      "link": "https://place.map.kakao.com/25048951",
+      "source": "manual"
+    },
+    {
+      "id": "sup-taebaek-sunflower-2026",
+      "title": "2026 태백 해바라기축제",
+      "sido": "강원",
+      "sigungu": "태백시",
+      "addr": "강원특별자치도 태백시 구와우길 38-11 구와우마을",
+      "startDate": "2026-07-17",
+      "endDate": "2026-08-17",
+      "lat": null,
+      "lng": null,
+      "image": null,
+      "tel": null,
+      "link": "https://map.kakao.com/link/search/태백 해바라기축제",
+      "source": "manual"
+    }
+  ]
+}

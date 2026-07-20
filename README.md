@@ -19,9 +19,26 @@
 - 이미지·위경도·법정동코드 포함, 약 900건
 - `scripts/collect.mjs` 가 수집·정규화하여 `data/festivals.json` 생성
 - GitHub Actions 가 **매일 06:00 KST** 자동 갱신 후 재배포
+- 지역 분류: TourAPI가 전남·광주를 `전남광주통합특별시`로 통합 표기하므로,
+  시군구 접미어(자치'구'=광주 / 시·군=전남)로 분기한다.
 
-> 광주 등 TourAPI 공백 지역은 추후 전국문화축제표준데이터
-> (`tn_pubr_public_cltur_fstvl_api`) 어댑터를 추가해 보강 예정.
+### 수동 보강 (`data/supplement.json`)
+
+TourAPI에 없는 소지역·소규모 축제는 이 파일에 추가하면 매일 자동 수집 시에도
+보존·병합된다(자동 수집이 덮어쓰지 않음). 항목 형식:
+
+```json
+{
+  "title": "2026 OO축제", "sido": "충북", "sigungu": "영동군",
+  "addr": "…", "startDate": "2026-08-27", "endDate": "2026-08-30",
+  "lat": null, "lng": null,
+  "link": "https://place.map.kakao.com/…", "source": "manual"
+}
+```
+
+- **개최일자를 반드시 검증**한 항목만 등록(대시보드가 날짜 기반).
+- 같은 `제목+시작월`이 TourAPI에 이미 있으면 자동으로 중복 제거된다.
+- 좌표는 네이버 지역검색으로 확인된 경우만 채우고, 미확인은 `null` + `link`로 대체.
 
 ## 로컬 개발
 

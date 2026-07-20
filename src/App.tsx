@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Festival, FestivalData, Status } from './types';
-import { statusOf, dday } from './types';
+import { statusOf, dday, infoLink, mapLink } from './types';
 import FestivalMap from './FestivalMap';
 import MonthChart from './MonthChart';
 
@@ -168,6 +168,29 @@ export default function App() {
                         {status === 'upcoming' && d >= 0 ? (
                           <span className="dday">D{d === 0 ? '-DAY' : `-${d}`}</span>
                         ) : null}
+                        {f.source && f.source !== 'tourapi' ? (
+                          <span className="badge src">보강</span>
+                        ) : null}
+                        <a
+                          className="go"
+                          href={infoLink(f)}
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          title="네이버에서 검색"
+                        >
+                          🔍 정보
+                        </a>
+                        <a
+                          className="go"
+                          href={mapLink(f)}
+                          target="_blank"
+                          rel="noreferrer"
+                          onClick={(e) => e.stopPropagation()}
+                          title="카카오맵에서 보기"
+                        >
+                          📍 지도
+                        </a>
                       </div>
                     </div>
                   </div>
