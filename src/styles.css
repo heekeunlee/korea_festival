@@ -119,6 +119,29 @@ select.region-select {
   padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
   background: var(--surface-2); color: var(--text-primary); font-size: 13px;
 }
+.date-pick {
+  display: flex; align-items: center; gap: 6px;
+  border: 1px solid var(--border); background: var(--surface-2);
+  border-radius: 8px; padding: 4px 8px;
+}
+.date-pick input[type='date'] {
+  border: none; background: transparent; color: var(--text-primary);
+  font-size: 13px; font-family: inherit; padding: 3px 2px; color-scheme: light dark;
+}
+.date-pick input[type='date']:focus { outline: none; }
+.date-btn {
+  border: none; background: var(--surface-0); color: var(--text-secondary);
+  border-radius: 6px; padding: 4px 9px; font-size: 12px; cursor: pointer;
+}
+.date-btn:hover { color: var(--series-1); }
+.date-btn.clear { color: var(--upcoming); }
+.date-note {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 13px; color: var(--text-secondary);
+  background: var(--series-1-soft); border: 1px solid var(--series-1);
+  border-radius: 999px; padding: 6px 13px;
+}
+.date-note b { color: var(--series-1); }
 
 /* Map */
 .map { height: 560px; width: 100%; }

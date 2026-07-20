@@ -28,6 +28,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [sido, setSido] = useState('전체');
   const [statusFilter, setStatusFilter] = useState<Status | 'all'>('all');
+  const [pickedDate, setPickedDate] = useState<string>(''); // 'YYYY-MM-DD', 빈 문자열이면 날짜 필터 없음
   const [selected, setSelected] = useState<Festival | null>(null);
   const { isDark, toggle } = useTheme();
 
@@ -45,27 +46,37 @@ export default function App() {
     const q = query.trim().toLowerCase();
     return data.festivals.filter((f) => {
       if (sido !== '전체' && f.sido !== sido) return false;
-      if (statusFilter !== 'all' && statusOf(f, today) !== statusFilter) return false;
+      // 날짜를 지정하면 그날 진행 중(개최 기간에 포함)인 축제만. 상태 필터보다 우선한다.
+      if (pickedDate) {
+        if (!(f.startDate <= pickedDate && f.endDate >= pickedDate)) return false;
+      } else if (statusFilter !== 'all' && statusOf(f, today) !== statusFilter) {
+        return false;
+      }
       if (q && !(`${f.title} ${f.sido} ${f.sigungu ?? ''} ${f.addr}`.toLowerCase().includes(q))) return false;
       return true;
     });
-  }, [data, query, sido, statusFilter, today]);
+  }, [data, query, sido, statusFilter, pickedDate, today]);
 
   const kpi = useMemo(() => {
     const all = data?.festivals ?? [];
     const thisMonth = today.slice(0, 7);
+    // 날짜를 지정하면 첫 KPI를 '그날 진행 중' 개수로 바꾼다.
+    const refDate = pickedDate || today;
     return {
-      total: all.length,
-      ongoing: all.filter((f) => statusOf(f, today) === 'ongoing').length,
+      ongoing: all.filter((f) => f.startDate <= refDate && f.endDate >= refDate).length,
       thisMonth: all.filter((f) => f.startDate.slice(0, 7) === thisMonth || (f.startDate <= today && f.endDate >= today)).length,
+      total: all.length,
       regions: new Set(all.map((f) => f.sido)).size,
     };
-  }, [data, today]);
+  }, [data, today, pickedDate]);
 
   const regions = useMemo(() => {
     const present = new Set((data?.festivals ?? []).map((f) => f.sido));
     return SIDO_ORDER.filter((s) => present.has(s));
   }, [data]);
+
+  // 지도 마커 색과 목록 배지는 기준일에 맞춘다(날짜 지정 시 그날, 아니면 오늘).
+  const refDate = pickedDate || today;
 
   if (error) return <div className="app"><div className="empty">⚠️ {error}</div></div>;
   if (!data) return <div className="app"><div className="empty">불러오는 중…</div></div>;
@@ -86,7 +97,7 @@ export default function App() {
 
       <section className="kpi-row">
         <div className="kpi accent">
-          <div className="label">지금 진행 중</div>
+          <div className="label">{pickedDate ? `${pickedDate.slice(5).replace('-', '/')} 진행 중` : '지금 진행 중'}</div>
           <div className="value">{kpi.ongoing}<span className="unit">건</span></div>
         </div>
         <div className="kpi accent2">
@@ -114,16 +125,37 @@ export default function App() {
           <option value="전체">전체 지역</option>
           {regions.map((s) => <option key={s} value={s}>{s}</option>)}
         </select>
-        {(['all', 'ongoing', 'upcoming', 'ended'] as const).map((s) => (
-          <button
-            key={s}
-            className={`chip ${s !== 'all' ? `status-${s}` : ''}`}
-            aria-pressed={statusFilter === s}
-            onClick={() => setStatusFilter(s)}
-          >
-            {s === 'all' ? '전체' : STATUS_LABEL[s]}
-          </button>
-        ))}
+
+        <div className="date-pick">
+          <span aria-hidden>📅</span>
+          <input
+            type="date"
+            value={pickedDate}
+            onChange={(e) => setPickedDate(e.target.value)}
+            aria-label="날짜 지정"
+          />
+          <button className="date-btn" onClick={() => setPickedDate(today)}>오늘</button>
+          {pickedDate && (
+            <button className="date-btn clear" onClick={() => setPickedDate('')}>✕ 해제</button>
+          )}
+        </div>
+
+        {pickedDate ? (
+          <span className="date-note">
+            📅 <b>{pickedDate.replace(/-/g, '.')}</b> 진행 중인 축제만 표시 중
+          </span>
+        ) : (
+          (['all', 'ongoing', 'upcoming', 'ended'] as const).map((s) => (
+            <button
+              key={s}
+              className={`chip ${s !== 'all' ? `status-${s}` : ''}`}
+              aria-pressed={statusFilter === s}
+              onClick={() => setStatusFilter(s)}
+            >
+              {s === 'all' ? '전체' : STATUS_LABEL[s]}
+            </button>
+          ))
+        )}
       </div>
 
       <div className="main-grid">
@@ -132,7 +164,7 @@ export default function App() {
             <h2>지도</h2>
             <span className="hint">{filtered.filter((f) => f.lat != null).length}개 표시 · 핀 클릭 시 목록 강조</span>
           </div>
-          <FestivalMap festivals={filtered} today={today} selected={selected} onSelect={setSelected} />
+          <FestivalMap festivals={filtered} today={refDate} selected={selected} onSelect={setSelected} />
         </div>
 
         <div className="panel">
@@ -145,8 +177,8 @@ export default function App() {
               <div className="empty">조건에 맞는 축제가 없습니다.</div>
             ) : (
               filtered.slice(0, 300).map((f) => {
-                const status = statusOf(f, today);
-                const d = dday(f, today);
+                const status = statusOf(f, refDate);
+                const d = dday(f, refDate);
                 return (
                   <div
                     key={f.id}
