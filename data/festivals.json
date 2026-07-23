@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T23:59:51.965Z",
+  "updatedAt": "2026-07-23T23:57:58.048Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
   "count": 923,
   "festivals": [
@@ -100,22 +100,6 @@
       "source": "tourapi"
     },
     {
-      "id": "2019366",
-      "title": "대한민국 국제해양레저위크(KIMA WEEK)",
-      "sido": "부산",
-      "sigungu": "사하구",
-      "addr": "부산광역시 사하구 다대동",
-      "startDate": "2025-08-14",
-      "endDate": "2025-08-17",
-      "lat": 35.0572211857,
-      "lng": 128.9729408629,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/21/2553821_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/21/2553821_image2_1.jpg",
-      "tel": "051-760-1130",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "1684261",
       "title": "둔내고랭지토마토축제",
       "sido": "강원",
@@ -208,22 +192,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/67/3522467_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/67/3522467_image3_1.jpg",
       "tel": "010-4781-7786",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3302552",
-      "title": "장항 맥문동 꽃 축제",
-      "sido": "충남",
-      "sigungu": "서천군",
-      "addr": "충청남도 서천군 장항읍 장항산단로34번길 104 장항 송림 자연휴양림",
-      "startDate": "2025-08-28",
-      "endDate": "2025-08-31",
-      "lat": 36.0189021152,
-      "lng": 126.6660383667,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/47/3302547_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/47/3302547_image3_1.jpg",
-      "tel": "041-950-4256",
       "link": null,
       "source": "tourapi"
     },
@@ -1504,22 +1472,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/39/3533639_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/39/3533639_image3_1.jpg",
       "tel": "054-370-2281",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1086249",
-      "title": "청양 고추 구기자 축제",
-      "sido": "충남",
-      "sigungu": "청양군",
-      "addr": "충청남도 청양군 청양읍 은천동길 16-6 백세건강공원",
-      "startDate": "2025-09-19",
-      "endDate": "2025-09-21",
-      "lat": 36.4460221385,
-      "lng": 126.7975542558,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/24/3338624_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/24/3338624_image3_1.png",
-      "tel": "041-940-4852",
       "link": null,
       "source": "tourapi"
     },
@@ -12452,6 +12404,22 @@
       "source": "tourapi"
     },
     {
+      "id": "142064",
+      "title": "봉화은어축제",
+      "sido": "경북",
+      "sigungu": "봉화군",
+      "addr": "경상북도 봉화군 봉화읍 내성리 506번지",
+      "startDate": "2026-07-25",
+      "endDate": "2026-08-02",
+      "lat": 36.8884979597,
+      "lng": 128.7367992541,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/30/4080830_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/30/4080830_image3_1.JPG",
+      "tel": "054-674-3053",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "2499947",
       "title": "성북문화바캉스",
       "sido": "서울",
@@ -12501,7 +12469,7 @@
     },
     {
       "id": "4089090",
-      "title": "<도기陶器, 우리를 담은 질그릇>",
+      "title": "〈도기陶器, 우리를 담은 질그릇〉",
       "sido": "광주",
       "sigungu": "북구",
       "addr": "전남광주통합특별시 북구 하서로 110 (매곡동)",
@@ -12848,22 +12816,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/25/4091125_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/25/4091125_image3_1.jpg",
       "tel": "070-4266-7078",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2557842",
-      "title": "전주 가맥축제",
-      "sido": "전북",
-      "sigungu": "전주시",
-      "addr": "전북특별자치도 전주시 덕진구 권삼득로 308 (덕진동1가)",
-      "startDate": "2026-08-06",
-      "endDate": "2026-08-08",
-      "lat": 35.8442101179,
-      "lng": 127.1292609884,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/43/4086143_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/43/4086143_image3_1.jpg",
-      "tel": "070-8870-6870",
       "link": null,
       "source": "tourapi"
     },
@@ -13268,6 +13220,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3302552",
+      "title": "장항 맥문동 꽃 축제",
+      "sido": "충남",
+      "sigungu": "서천군",
+      "addr": "충청남도 서천군 장항읍 송림리 산58-48",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-30",
+      "lat": 36.0184392979,
+      "lng": 126.6655625042,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/31/4091431_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/31/4091431_image3_1.jpg",
+      "tel": "041-950-4256",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "2991394",
       "title": "2026 부산나이트워크42K with dsec",
       "sido": "부산",
@@ -13504,6 +13472,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/69/4060669_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/69/4060669_image3_1.jpg",
       "tel": "063-230-1858",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "1086249",
+      "title": "청양 고추 구기자 축제",
+      "sido": "충남",
+      "sigungu": "청양군",
+      "addr": "충청남도 청양군 청양읍 은천동길 16-6",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-13",
+      "lat": 36.4459739924,
+      "lng": 126.7975393964,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/76/4091576_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/76/4091576_image3_1.jpg",
+      "tel": "041-940-4852",
       "link": null,
       "source": "tourapi"
     },
@@ -13796,6 +13780,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2872196",
+      "title": "외계인 대축제",
+      "sido": "경남",
+      "sigungu": "밀양시",
+      "addr": "경상남도 밀양시 삼문동 1-1",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-20",
+      "lat": 35.4897367,
+      "lng": 128.7573807,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/43/4091643_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/43/4091643_image3_1.jpg",
+      "tel": "055-359-5788",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "141105",
       "title": "경남고성공룡세계엑스포",
       "sido": "경남",
@@ -14013,8 +14013,8 @@
       "endDate": "2026-10-05",
       "lat": 37.0336344681,
       "lng": 127.3054103868,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/54/3540554_image2_1.JPG",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/54/3540554_image3_1.JPG",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/93/4091593_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/93/4091593_image3_1.jpg",
       "tel": "031-678-5414",
       "link": null,
       "source": "tourapi"
