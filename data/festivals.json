@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-07-28T23:56:32.961Z",
+  "updatedAt": "2026-07-29T23:58:41.113Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 923,
+  "count": 924,
   "festivals": [
     {
       "id": "3481597",
@@ -912,22 +912,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/68/3537168_image2_1.JPG",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/68/3537168_image3_1.JPG",
       "tel": "02-6365-1388",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3356047",
-      "title": "2025 별바다부산 나이트마켓",
-      "sido": "부산",
-      "sigungu": "북구",
-      "addr": "부산광역시 북구 생태공원길 270 (화명동)",
-      "startDate": "2025-09-18",
-      "endDate": "2025-10-19",
-      "lat": 35.2397152762,
-      "lng": 129.0078550672,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/89/3524089_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/89/3524089_image3_1.png",
-      "tel": "051-710-6948",
       "link": null,
       "source": "tourapi"
     },
@@ -2288,22 +2272,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/12/3539812_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/12/3539812_image3_1.jpg",
       "tel": "033-460-8900",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2392159",
-      "title": "제10회 부천국제브레이킹대회(BIBC)",
-      "sido": "경기",
-      "sigungu": "부천시",
-      "addr": "경기도 부천시 원미구 길주로 210 (중동)",
-      "startDate": "2025-09-27",
-      "endDate": "2025-09-28",
-      "lat": 37.5037883025,
-      "lng": 126.7660282681,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/83/3531483_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/83/3531483_image3_1.png",
-      "tel": "032-320-6345",
       "link": null,
       "source": "tourapi"
     },
@@ -12749,8 +12717,8 @@
       "endDate": "2026-08-16",
       "lat": 37.5175220176,
       "lng": 128.2138916396,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/52/4091852_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/52/4091852_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/17/4094217_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/17/4094217_image3_1.jpg",
       "tel": "033-340-2774",
       "link": null,
       "source": "tourapi"
@@ -12964,6 +12932,22 @@
       "source": "tourapi"
     },
     {
+      "id": "142191",
+      "title": "영동포도축제",
+      "sido": "충북",
+      "sigungu": "영동군",
+      "addr": "충청북도 영동군 영동읍 영동힐링로 117",
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "lat": 36.1563534107,
+      "lng": 127.786513691,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/99/4093999_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/99/4093999_image3_1.jpg",
+      "tel": "043-745-8924",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "1073801",
       "title": "영양고추 H.O.T 페스티벌",
       "sido": "서울",
@@ -13072,6 +13056,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/07/4090807_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/07/4090807_image3_1.jpg",
       "tel": "031-369-1787",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2989981",
+      "title": "서초뮤직앤아트페스티벌(SMAF)",
+      "sido": "서울",
+      "sigungu": "서초구",
+      "addr": "서울특별시 서초구 신반포로 194 (반포동)",
+      "startDate": "2026-08-29",
+      "endDate": "2026-08-30",
+      "lat": 37.5061540847,
+      "lng": 127.0055699583,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/29/4094029_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/29/4094029_image3_1.jpg",
+      "tel": "02-3477-2808",
       "link": null,
       "source": "tourapi"
     },
@@ -14336,6 +14336,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/26/4059026_image2_1.jpeg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/26/4059026_image3_1.jpeg",
       "tel": "054-655-8082",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "1230074",
+      "title": "춘천막국수닭갈비축제",
+      "sido": "강원",
+      "sigungu": "춘천시",
+      "addr": "강원특별자치도 춘천시 퇴계동 746",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-18",
+      "lat": 37.8686587,
+      "lng": 127.724239,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/03/4094103_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/03/4094103_image3_1.png",
+      "tel": "070-7576-1657",
       "link": null,
       "source": "tourapi"
     },
