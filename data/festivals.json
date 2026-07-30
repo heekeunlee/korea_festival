@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-07-29T23:58:41.113Z",
+  "updatedAt": "2026-07-30T23:59:31.469Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 924,
+  "count": 926,
   "festivals": [
     {
       "id": "3481597",
@@ -1588,22 +1588,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3006246",
-      "title": "부산국제공연예술마켓",
-      "sido": "부산",
-      "sigungu": "남구",
-      "addr": "부산광역시 남구 유엔평화로76번길 1 (대연동) 부산문화회관",
-      "startDate": "2025-09-24",
-      "endDate": "2025-09-28",
-      "lat": 35.128507099,
-      "lng": 129.0937450823,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/43/3537143_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/43/3537143_image3_1.jpg",
-      "tel": "051-745-7298",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "1389831",
       "title": "선인장&다육식물展",
       "sido": "경기",
@@ -2208,22 +2192,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/86/3542886_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/86/3542886_image3_1.jpg",
       "tel": "02-3153-6860",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2843521",
-      "title": "예산황새축제",
-      "sido": "충남",
-      "sigungu": "예산군",
-      "addr": "충청남도 예산군 광시면 시목대리길 62-19 예산황새공원 일원",
-      "startDate": "2025-09-27",
-      "endDate": "2025-09-28",
-      "lat": 36.5430637642,
-      "lng": 126.7970711575,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/59/3380059_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/59/3380059_image3_1.jpg",
-      "tel": "041-339-8367",
       "link": null,
       "source": "tourapi"
     },
@@ -5364,6 +5332,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3395188",
+      "title": "순창 코리아 떡볶이 페스타",
+      "sido": "전북",
+      "sigungu": "순창군",
+      "addr": "전북특별자치도 순창군 순창읍 장류로 55 순창발효테마파크 및 전통고추장민속마을 일원",
+      "startDate": "2025-11-15",
+      "endDate": "2025-11-16",
+      "lat": 35.3687554717,
+      "lng": 127.1123214189,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/39/3515039_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/39/3515039_image3_1.jpg",
+      "tel": "063-653-1827",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3567099",
       "title": "홍성 백반 페스타",
       "sido": "충남",
@@ -5648,22 +5632,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/38/3567838_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/38/3567838_image3_1.jpg",
       "tel": "052-255-1943",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3515311",
-      "title": "부산국제AI영화제",
-      "sido": "부산",
-      "sigungu": "해운대구",
-      "addr": "부산광역시 해운대구 수영강변대로 120 (우동)",
-      "startDate": "2025-12-04",
-      "endDate": "2025-12-06",
-      "lat": 35.1710029572,
-      "lng": 129.1270687971,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/10/3515310_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/10/3515310_image3_1.jpg",
-      "tel": "051-780-6115",
       "link": null,
       "source": "tourapi"
     },
@@ -11748,6 +11716,38 @@
       "source": "tourapi"
     },
     {
+      "id": "4094595",
+      "title": "컨템포러리 아티스트 프로젝트 《이완 - 나는 쓴다》",
+      "sido": "서울",
+      "sigungu": "서초구",
+      "addr": "서울특별시 서초구 남부순환로 2406 (서초동)",
+      "startDate": "2026-07-17",
+      "endDate": "2026-09-27",
+      "lat": 37.4802401962,
+      "lng": 127.0142152392,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/83/4094783_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/83/4094783_image3_1.png",
+      "tel": "02-580-1655",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "142228",
+      "title": "태백 해바라기축제",
+      "sido": "강원",
+      "sigungu": "태백시",
+      "addr": "강원특별자치도 태백시 구와우길 38-20 태백해바라기축제장",
+      "startDate": "2026-07-17",
+      "endDate": "2026-08-17",
+      "lat": 37.2068978478,
+      "lng": 128.9895710269,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/22/3493222_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/22/3493222_image3_1.JPG",
+      "tel": "010-3371-2000",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "140833",
       "title": "홍천 찰옥수수 축제",
       "sido": "강원",
@@ -13204,6 +13204,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2843521",
+      "title": "예산황새축제",
+      "sido": "충남",
+      "sigungu": "예산군",
+      "addr": "충청남도 예산군 광시면 시목대리길 62-19 예산황새공원",
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-06",
+      "lat": 36.5430163206,
+      "lng": 126.7970564001,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/32/4094932_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/32/4094932_image3_1.png",
+      "tel": "041-339-8367",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "1689321",
       "title": "한여름 밤의 신정호 별빛축제",
       "sido": "충남",
@@ -13579,8 +13595,8 @@
       "addr": "경기도 부천시 원미구 길주로 1 (상동)",
       "startDate": "2026-09-18",
       "endDate": "2026-09-20",
-      "lat": 37.50819874831107,
-      "lng": 126.74219327149696,
+      "lat": 37.5081987483,
+      "lng": 126.7421932715,
       "image": "https://tong.visitkorea.or.kr/cms/resource/75/3557475_image2_1.JPG",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/75/3557475_image3_1.JPG",
       "tel": "032-310-3071",
@@ -13776,6 +13792,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/28/4080328_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/28/4080328_image3_1.jpg",
       "tel": "02-785-5801",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3006246",
+      "title": "2026 부산국제공연예술마켓(BPAM)",
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "addr": "부산광역시 해운대구 센텀중앙로 55 (우동)",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-07",
+      "lat": 35.1730461533,
+      "lng": 129.1276550014,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/73/4094773_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/73/4094773_image3_1.jpg",
+      "tel": "051-745-7298",
       "link": null,
       "source": "tourapi"
     },
