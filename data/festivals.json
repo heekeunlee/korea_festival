@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-27T04:12:36.162Z",
+  "updatedAt": "2026-08-28T06:44:45.382Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 933,
+  "count": 936,
   "festivals": [
     {
       "id": "3481597",
@@ -356,22 +356,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3530743",
-      "title": "한국유교문화축전",
-      "sido": "충남",
-      "sigungu": "논산시",
-      "addr": "충청남도 논산시 노성면 종학길 10",
-      "startDate": "2025-09-12",
-      "endDate": "2025-09-14",
-      "lat": 36.2884982085,
-      "lng": 127.0981370354,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/41/3530741_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/41/3530741_image3_1.jpg",
-      "tel": "1566-9310",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "3529811",
       "title": "세종 한글술술 축제",
       "sido": "세종",
@@ -624,22 +608,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/19/3534119_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/19/3534119_image3_1.jpg",
       "tel": "042-826-5929",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2554931",
-      "title": "댄싱노원 거리페스티벌",
-      "sido": "서울",
-      "sigungu": "노원구",
-      "addr": "서울특별시 노원구 노해로 487-3 (상계동)",
-      "startDate": "2025-09-20",
-      "endDate": "2025-09-21",
-      "lat": 37.6548371522,
-      "lng": 127.062166439,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/56/3528456_image2_1.JPG",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/56/3528456_image3_1.JPG",
-      "tel": "02-2289-3464",
       "link": null,
       "source": "tourapi"
     },
@@ -11988,6 +11956,22 @@
       "source": "tourapi"
     },
     {
+      "id": "4104765",
+      "title": "제51회 강원축산경진대회",
+      "sido": "강원",
+      "sigungu": "강릉시",
+      "addr": "강원특별자치도 강릉시 단오장길 1 (노암동)",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-05",
+      "lat": 37.7482373527,
+      "lng": 128.894915665,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/68/4104768_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/68/4104768_image3_1.jpg",
+      "tel": "010-9776-2721",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "507635",
       "title": "평창효석문화제",
       "sido": "강원",
@@ -12228,22 +12212,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3062300",
-      "title": "2026 경주 황금카니발",
-      "sido": "경북",
-      "sigungu": "경주시",
-      "addr": "경상북도 경주시 원효로 112 (노동동)",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-19",
-      "lat": 35.8419190212,
-      "lng": 129.2129878719,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/99/4104299_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/99/4104299_image3_1.jpg",
-      "tel": "054-775-1333",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "4093222",
       "title": "2026 구미 로컬푸드 페스타",
       "sido": "서울",
@@ -12404,6 +12372,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2755115",
+      "title": "고양 푸드앤비어페스티벌",
+      "sido": "경기",
+      "sigungu": "고양시",
+      "addr": "경기도 고양시 일산동구 중앙로 1305-56 (장항동)",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-13",
+      "lat": 37.6610286707,
+      "lng": 126.7683076192,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4104834_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/34/4104834_image3_1.jpg",
+      "tel": "031-927-9974",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3333149",
       "title": "광명마당극축제X대한민국마당극축제",
       "sido": "경기",
@@ -12421,7 +12405,7 @@
     },
     {
       "id": "4104786",
-      "title": "대전중구 국가유산야행",
+      "title": "대전 중구 국가유산야행",
       "sido": "대전",
       "sigungu": "중구",
       "addr": "대전광역시 중구 중앙로79번길",
@@ -13140,6 +13124,38 @@
       "source": "tourapi"
     },
     {
+      "id": "3530743",
+      "title": "한국유교문화축전",
+      "sido": "충남",
+      "sigungu": "논산시",
+      "addr": "충청남도 논산시 노성면 종학길 10",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-20",
+      "lat": 36.2884517439,
+      "lng": 127.0981229437,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/12/4104812_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/12/4104812_image3_1.png",
+      "tel": "041-981-9859",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3062300",
+      "title": "2026 경주 황금카니발",
+      "sido": "경북",
+      "sigungu": "경주시",
+      "addr": "경상북도 경주시 원효로 112 (노동동)",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "lat": 35.8419190212,
+      "lng": 129.2129878719,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/99/4104299_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/99/4104299_image3_1.jpg",
+      "tel": "054-775-1333",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "140897",
       "title": "경산 갓바위소원성취축제",
       "sido": "경북",
@@ -13312,6 +13328,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/04/4103204_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/04/4103204_image3_1.jpg",
       "tel": "010-3577-2985",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3355698",
+      "title": "한강수계 걷기행사",
+      "sido": "경기",
+      "sigungu": "가평군",
+      "addr": "경기도 가평군 가평읍 대곡리 174-3",
+      "startDate": "2026-09-19",
+      "endDate": "2026-11-07",
+      "lat": 37.823886379,
+      "lng": 127.5134174634,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/96/4105196_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/96/4105196_image3_1.jpg",
+      "tel": "02-458-3315",
       "link": null,
       "source": "tourapi"
     },
@@ -14496,6 +14528,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/27/4096227_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/27/4096227_image3_1.jpg",
       "tel": "041-635-4797",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2833186",
+      "title": "SIYF",
+      "sido": "경기",
+      "sigungu": "시흥시",
+      "addr": "경기도 시흥시 시청로 20 (장현동)",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "lat": 37.3795201238,
+      "lng": 126.8032733548,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/59/4104859_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/59/4104859_image3_1.jpg",
+      "tel": "031-315-1889",
       "link": null,
       "source": "tourapi"
     },
