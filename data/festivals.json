@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-24T01:02:14.497Z",
+  "updatedAt": "2026-09-25T01:07:37.622Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 882,
+  "count": 873,
   "festivals": [
     {
       "id": "3481597",
@@ -436,22 +436,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3545515",
-      "title": "서리지 가족 체험 페스티벌",
-      "sido": "대구",
-      "sigungu": "북구",
-      "addr": "대구광역시 북구 동호동 73 서리지 생태공원",
-      "startDate": "2025-10-18",
-      "endDate": "2025-10-18",
-      "lat": 35.9659168854,
-      "lng": 128.5646877112,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/98/3545498_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/98/3545498_image3_1.jpg",
-      "tel": "010-2318-8808",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "626944",
       "title": "서울억새축제",
       "sido": "서울",
@@ -532,22 +516,6 @@
       "source": "tourapi"
     },
     {
-      "id": "142233",
-      "title": "정동문화축제",
-      "sido": "서울",
-      "sigungu": "중구",
-      "addr": "서울특별시 중구 정동 (세종대로 19길 124)",
-      "startDate": "2025-10-23",
-      "endDate": "2025-10-25",
-      "lat": 37.5670957913,
-      "lng": 126.9753629579,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/15/3552215_image2_1.jpeg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/15/3552215_image3_1.jpeg",
-      "tel": "02-3701-1603",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "3546882",
       "title": "2025 음악실연자 페스티벌",
       "sido": "제주",
@@ -560,22 +528,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/81/3546881_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/81/3546881_image3_1.jpg",
       "tel": "070-4242-0838",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3379778",
-      "title": "가락옥토버페스트 미식야행",
-      "sido": "서울",
-      "sigungu": "송파구",
-      "addr": "서울특별시 송파구 양재대로 932 (가락동) (가락동 600) 가락몰3층 하늘공원",
-      "startDate": "2025-10-24",
-      "endDate": "2025-10-26",
-      "lat": 37.4960786971,
-      "lng": 127.1107693087,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/73/3553073_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/73/3553073_image3_1.png",
-      "tel": "02-3435-0455",
       "link": null,
       "source": "tourapi"
     },
@@ -640,22 +592,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/25/3552525_image2_1.JPG",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/25/3552525_image3_1.JPG",
       "tel": "02-2629-2261",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3551526",
-      "title": "용마루 숲길 축제",
-      "sido": "서울",
-      "sigungu": "용산구",
-      "addr": "서울특별시 용산구 효창원로55길 8 (용문동)",
-      "startDate": "2025-10-24",
-      "endDate": "2025-11-09",
-      "lat": 37.5388210345,
-      "lng": 126.9605734386,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/93/3551493_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/93/3551493_image3_1.jpg",
-      "tel": "010-9771-2090",
       "link": null,
       "source": "tourapi"
     },
@@ -772,22 +708,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3544786",
-      "title": "WOW 다놀자! 양평페스타",
-      "sido": "경기",
-      "sigungu": "양평군",
-      "addr": "경기도 양평군 용문면 연수로 209",
-      "startDate": "2025-10-25",
-      "endDate": "2025-10-26",
-      "lat": 37.4987368948,
-      "lng": 127.5782878872,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/10/3554410_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/10/3554410_image3_1.jpg",
-      "tel": "031-770-1500",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "2435280",
       "title": "강진만 춤추는 갈대축제",
       "sido": "전남",
@@ -804,54 +724,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3025858",
-      "title": "고양 동물교감치유 문화제",
-      "sido": "경기",
-      "sigungu": "고양시",
-      "addr": "경기도 고양시 일산동구 중앙로 1271-4 (장항동) 일산문화광장",
-      "startDate": "2025-10-25",
-      "endDate": "2025-10-25",
-      "lat": 37.6579815492,
-      "lng": 126.7700763468,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/11/3549011_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/11/3549011_image3_1.jpg",
-      "tel": "031-8075-4603",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1472205",
-      "title": "도심속 바다축제",
-      "sido": "서울",
-      "sigungu": "동작구",
-      "addr": "서울특별시 동작구 노들로 688 (노량진동) 노량진 수산시장, 노량진 축구장",
-      "startDate": "2025-10-25",
-      "endDate": "2025-10-26",
-      "lat": null,
-      "lng": 37.5153558459,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/17/3555917_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/17/3555917_image3_1.jpg",
-      "tel": "02-820-9401",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3021124",
-      "title": "보현사 산사천년문화제",
-      "sido": "강원",
-      "sigungu": "강릉시",
-      "addr": "강원특별자치도 강릉시 성산면 보현길 396",
-      "startDate": "2025-10-25",
-      "endDate": "2025-10-26",
-      "lat": 37.736626283,
-      "lng": 128.7693064482,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/75/3529875_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/75/3529875_image3_1.jpg",
-      "tel": "033-648-9431",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "3406027",
       "title": "여수동동북축제",
       "sido": "전남",
@@ -864,22 +736,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/02/3406002_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/02/3406002_image3_1.jpg",
       "tel": "061-659-4744",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1749228",
-      "title": "청남대 가을축제",
-      "sido": "충북",
-      "sigungu": "청주시",
-      "addr": "충청북도 청주시 상당구 문의면 청남대길 646",
-      "startDate": "2025-10-25",
-      "endDate": "2025-11-09",
-      "lat": 36.4667931119,
-      "lng": 127.492591341,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/56/3552356_image2_1.JPG",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/56/3552356_image3_1.JPG",
-      "tel": "043-250-5080",
       "link": null,
       "source": "tourapi"
     },
