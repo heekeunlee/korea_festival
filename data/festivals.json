@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-04T02:21:55.257Z",
+  "updatedAt": "2026-10-05T01:34:02.551Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 895,
+  "count": 894,
   "festivals": [
     {
       "id": "3481597",
@@ -80,22 +80,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/17/3579117_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/17/3579117_image3_1.jpg",
       "tel": "02-6952-4907",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3115337",
-      "title": "원주시 반려동물 문화행사 <애니멀 대학>",
-      "sido": "강원",
-      "sigungu": "원주시",
-      "addr": "강원특별자치도 원주시 봉산동 899-2",
-      "startDate": "2025-10-04",
-      "endDate": "2025-10-04",
-      "lat": 37.3444506969,
-      "lng": 127.960221718,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/08/3546108_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/08/3546108_image3_1.png",
-      "tel": "033-813-0333",
       "link": null,
       "source": "tourapi"
     },
