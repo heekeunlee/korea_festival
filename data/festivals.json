@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-18T00:36:49.894Z",
+  "updatedAt": "2026-10-19T00:46:30.261Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 892,
+  "count": 891,
   "festivals": [
     {
       "id": "3481597",
@@ -80,22 +80,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/52/3555352_image2_1.png",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/52/3555352_image3_1.png",
       "tel": "051-610-4511",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2405329",
-      "title": "종로K축제",
-      "sido": "서울",
-      "sigungu": "종로구",
-      "addr": "서울특별시 종로구 세종대로 지하172 (세종로) 광화문광장",
-      "startDate": "2025-10-17",
-      "endDate": "2025-10-18",
-      "lat": 37.5716786179,
-      "lng": 126.9767821434,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/64/3563664_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/64/3563664_image3_1.jpg",
-      "tel": "02-6203-1164",
       "link": null,
       "source": "tourapi"
     },
