@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-19T00:46:30.261Z",
+  "updatedAt": "2026-10-20T01:32:50.456Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 891,
+  "count": 899,
   "festivals": [
     {
       "id": "3481597",
@@ -64,22 +64,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/93/3548993_image2_1.png",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/93/3548993_image3_1.png",
       "tel": "02-3143-7366",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3555363",
-      "title": "옥토버페스타 인 광안리",
-      "sido": "부산",
-      "sigungu": "수영구",
-      "addr": "부산광역시 수영구 민락로6번길 29 (민락동)",
-      "startDate": "2025-10-17",
-      "endDate": "2025-10-19",
-      "lat": 35.1568628164,
-      "lng": 129.1239638996,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/52/3555352_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/52/3555352_image3_1.png",
-      "tel": "051-610-4511",
       "link": null,
       "source": "tourapi"
     },
@@ -13204,6 +13188,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3390190",
+      "title": "2026 동작 미래과학페스티벌",
+      "sido": "서울",
+      "sigungu": "동작구",
+      "addr": "서울특별시 동작구 여의대방로36길 71 (대방동)",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "lat": 37.5077517549,
+      "lng": 126.9267361406,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/47/4129247_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/47/4129247_image3_1.jpg",
+      "tel": "02-845-0924",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4115205",
       "title": "2026 서울 펫림픽",
       "sido": "서울",
@@ -13236,6 +13236,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3368863",
+      "title": "2026 연남동 주민화합 대축제",
+      "sido": "서울",
+      "sigungu": "마포구",
+      "addr": "서울특별시 마포구 연남동 255-30",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "lat": 37.5615826676,
+      "lng": 126.9243067392,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/83/4130083_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/83/4130083_image3_1.jpg",
+      "tel": "02-3153-6873",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3019085",
       "title": "2026 이천펫축제",
       "sido": "경기",
@@ -13248,6 +13264,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/07/4111607_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/07/4111607_image3_1.jpg",
       "tel": "031-645-3683",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4128762",
+      "title": "2026 자원순환 시민행사 : 앨리스와 떠나는 에코 원더랜드",
+      "sido": "서울",
+      "sigungu": "강동구",
+      "addr": "서울특별시 강동구 상일동 185",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "lat": 37.549077736,
+      "lng": 127.165427204,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/65/4128765_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/65/4128765_image3_1.jpg",
+      "tel": "02-830-7188",
       "link": null,
       "source": "tourapi"
     },
@@ -13412,6 +13444,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2867300",
+      "title": "평택 원평나루 억새축제",
+      "sido": "경기",
+      "sigungu": "평택시",
+      "addr": "경기도 평택시 평택동 238-2",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "lat": 36.9842467192,
+      "lng": 127.0810967851,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image3_1.jpg",
+      "tel": "031-669-0965",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3547712",
       "title": "한미친선 문화 한마당",
       "sido": "경기",
@@ -13460,6 +13508,22 @@
       "source": "tourapi"
     },
     {
+      "id": "4128786",
+      "title": "2026 세계섬축제",
+      "sido": "제주",
+      "sigungu": "제주시",
+      "addr": "제주특별자치도 제주시 조천읍 남조로 2023",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-29",
+      "lat": 33.4513306225,
+      "lng": 126.6566617641,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/87/4128787_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/87/4128787_image3_1.jpg",
+      "tel": "064-711-1002",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4115269",
       "title": "쿼드, 연극의 질문들：〈혁명의 춤〉",
       "sido": "서울",
@@ -13488,6 +13552,38 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/18/4106718_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/18/4106718_image3_1.jpg",
       "tel": "054-840-3461~3",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3113995",
+      "title": "경기‧양주‧지작사 드론봇 페스티벌",
+      "sido": "경기",
+      "sigungu": "양주시",
+      "addr": "경기도 양주시 광적면 삼일로 52 가납리비행장",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "lat": 37.833553,
+      "lng": 126.989798,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image3_1.JPG",
+      "tel": "031-8082-6161",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3349589",
+      "title": "김제 자원순환 새로보미 축제",
+      "sido": "전북",
+      "sigungu": "김제시",
+      "addr": "전북특별자치도 김제시 도작로 220-23 (검산동) 김제시민문화체육공원잔디광장",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "lat": 35.8122733138,
+      "lng": 126.9018711437,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/44/4129344_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/44/4129344_image3_1.png",
+      "tel": "063-540-3543",
       "link": null,
       "source": "tourapi"
     },
@@ -13536,6 +13632,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/83/4120983_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/83/4120983_image3_1.jpg",
       "tel": "051-231-4085",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3012116",
+      "title": "부여국화축제",
+      "sido": "충남",
+      "sigungu": "부여군",
+      "addr": "충청남도 부여군 부여읍 동남리 117 부여 궁남지 일원",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-08",
+      "lat": 36.269786,
+      "lng": 126.912293,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/69/4124969_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/69/4124969_image3_1.jpg",
+      "tel": "041-830-2591",
       "link": null,
       "source": "tourapi"
     },
@@ -13744,6 +13856,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/86/4114586_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/86/4114586_image3_1.jpg",
       "tel": "02-6121-6229",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2918621",
+      "title": "2026 울산 스타트업 페스타",
+      "sido": "울산",
+      "sigungu": "울주군",
+      "addr": "울산광역시 울주군 울산역로 255",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-06",
+      "lat": 35.5556172556,
+      "lng": 129.1316534328,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/48/4128848_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/48/4128848_image3_1.jpg",
+      "tel": "070-5080-2804",
       "link": null,
       "source": "tourapi"
     },
