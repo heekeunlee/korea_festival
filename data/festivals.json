@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26T00:58:05.015Z",
+  "updatedAt": "2026-10-27T01:48:12.258Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 888,
+  "count": 890,
   "festivals": [
     {
       "id": "3481597",
@@ -48,22 +48,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/59/3536359_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/59/3536359_image3_1.jpg",
       "tel": "061-727-2272",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3375262",
-      "title": "전남 세계 김밥 페스티벌",
-      "sido": "전남",
-      "sigungu": "목포시",
-      "addr": "전남광주통합특별시 목포시 남농로 102 (용해동)",
-      "startDate": "2025-10-24",
-      "endDate": "2025-10-26",
-      "lat": 34.7924856371,
-      "lng": 126.4179353916,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/16/3553016_image2_1.JPG",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/16/3553016_image3_1.JPG",
-      "tel": "061-286-6971~3",
       "link": null,
       "source": "tourapi"
     },
@@ -12996,22 +12980,6 @@
       "source": "tourapi"
     },
     {
-      "id": "3522322",
-      "title": "오슬로우 빈티지 마켓",
-      "sido": "인천",
-      "sigungu": "제물포구",
-      "addr": "인천광역시 제물포구 제물량로218번길 3 (해안동1가)",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-25",
-      "lat": 37.4727889015,
-      "lng": 126.6206091372,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/32/4106932_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/32/4106932_image3_1.jpg",
-      "tel": "010-2258-9475",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "3349628",
       "title": "제주독서대전",
       "sido": "제주",
@@ -13135,7 +13103,39 @@
       "lng": 128.7329339526,
       "image": "https://tong.visitkorea.or.kr/cms/resource/52/4134352_image2_1.jpeg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/52/4134352_image3_1.jpeg",
-      "tel": null,
+      "tel": "02-6678-9000",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2874329",
+      "title": "홍성글로벌바비큐페스티벌",
+      "sido": "충남",
+      "sigungu": "홍성군",
+      "addr": "충청남도 홍성군 홍성읍 아문길 27",
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-01",
+      "lat": 36.6017210412,
+      "lng": 126.6613891711,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/30/4103630_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/30/4103630_image3_1.jpg",
+      "tel": "041-634-8705",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4135564",
+      "title": "2026 제6회 제주환경교육한마당",
+      "sido": "제주",
+      "sigungu": "제주시",
+      "addr": "제주특별자치도 제주시 청귤로5길 6-9 (이도이동)",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "lat": 33.4997528923,
+      "lng": 126.5396874056,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/65/4135565_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/65/4135565_image3_1.jpg",
+      "tel": "064-722-9431",
       "link": null,
       "source": "tourapi"
     },
@@ -13620,22 +13620,6 @@
       "source": "tourapi"
     },
     {
-      "id": "1074568",
-      "title": "2026 제주올레걷기축제",
-      "sido": "제주",
-      "sigungu": "제주시",
-      "addr": "제주특별자치도 제주시 조천읍 조천리 1141",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-07",
-      "lat": 33.5405232248,
-      "lng": 126.6421943052,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/20/4096920_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/20/4096920_image3_1.jpg",
-      "tel": "064-762-2190",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "4114621",
       "title": "2026 대한민국 제주정원문화박람회",
       "sido": "제주",
@@ -13972,6 +13956,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3360113",
+      "title": "게임문화축제",
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "addr": "부산광역시 해운대구 APEC로 30 (우동) 1층",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-22",
+      "lat": 35.1657825587,
+      "lng": 129.1350266435,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image3_1.png",
+      "tel": "02-546-7378",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "588175",
       "title": "포항국제불빛축제",
       "sido": "경북",
@@ -13984,6 +13984,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/51/4130851_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/51/4130851_image3_1.jpg",
       "tel": "054-289-7852~6",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2854855",
+      "title": "2026 대한민국 관광기념품 박람회",
+      "sido": "서울",
+      "sigungu": "중구",
+      "addr": "서울특별시 중구 을지로 281 (을지로7가)",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22",
+      "lat": 37.5660539726,
+      "lng": 127.0095547691,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image3_1.jpg",
+      "tel": "010-3489-3637",
       "link": null,
       "source": "tourapi"
     },
@@ -14112,6 +14128,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/60/4111660_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/60/4111660_image3_1.jpg",
       "tel": "070-4681-5717",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3522322",
+      "title": "오슬로우 빈티지 크리스마스 마켓",
+      "sido": "인천",
+      "sigungu": "제물포구",
+      "addr": "인천광역시 제물포구 월미로 33 (북성동1가)",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-20",
+      "lat": 37.476568524,
+      "lng": 126.6144291728,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/24/4136124_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/24/4136124_image3_1.jpg",
+      "tel": "010-2258-9475",
       "link": null,
       "source": "tourapi"
     },
