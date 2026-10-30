@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-29T02:04:44.104Z",
+  "updatedAt": "2026-10-30T02:23:18.950Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 877,
+  "count": 879,
   "festivals": [
     {
       "id": "3481597",
@@ -368,22 +368,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/36/3567636_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/36/3567636_image3_1.jpg",
       "tel": "02-904-1159",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3035607",
-      "title": "광화문 마켓",
-      "sido": "서울",
-      "sigungu": "종로구",
-      "addr": "서울특별시 종로구 세종대로 지하172 (세종로)",
-      "startDate": "2025-12-12",
-      "endDate": "2025-12-31",
-      "lat": 37.5716786179,
-      "lng": 126.9767821434,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/03/3573403_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/03/3573403_image3_1.png",
-      "tel": "02-337-3692",
       "link": null,
       "source": "tourapi"
     },
@@ -1165,8 +1149,8 @@
       "endDate": "2026-12-26",
       "lat": 37.7832839326,
       "lng": 126.6946859929,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/50/4127750_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/50/4127750_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/22/4140222_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/22/4140222_image3_1.jpg",
       "tel": "031-870-9110",
       "link": null,
       "source": "tourapi"
@@ -11636,22 +11620,6 @@
       "source": "tourapi"
     },
     {
-      "id": "2952759",
-      "title": "우이천변 페스타 2026 이상한 나라의 웰니스",
-      "sido": "서울",
-      "sigungu": "강북구",
-      "addr": "서울특별시 강북구 도봉로101길 18 (수유동)",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-18",
-      "lat": 37.6433604336,
-      "lng": 127.0296368138,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/66/4115066_image2_1.png",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/66/4115066_image3_1.png",
-      "tel": "02-901-6216",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "142233",
       "title": "정동문화축제",
       "sido": "서울",
@@ -12372,6 +12340,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2484237",
+      "title": "라라라 페스티벌",
+      "sido": "부산",
+      "sigungu": "금정구",
+      "addr": "부산광역시 금정구 장전온천천로 48 (장전동)",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-25",
+      "lat": 35.2296146114,
+      "lng": 129.0893099886,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/94/4110494_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/94/4110494_image3_1.jpg",
+      "tel": "051-519-4422",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4130916",
       "title": "무주 반딧불 농부장터",
       "sido": "전북",
@@ -12720,6 +12704,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/62/3543062_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/62/3543062_image3_1.jpg",
       "tel": "02-3423-7552",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "1472205",
+      "title": "도심 속 바다축제",
+      "sido": "서울",
+      "sigungu": "동작구",
+      "addr": "서울특별시 동작구 노들로 688 (노량진동) 노량진 수산시장 축구장 일대",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "lat": 37.5150119198,
+      "lng": 126.9445243157,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/17/3555917_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/17/3555917_image3_1.jpg",
+      "tel": "02-820-9403",
       "link": null,
       "source": "tourapi"
     },
@@ -13316,6 +13316,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2754421",
+      "title": "괴산김장축제",
+      "sido": "충북",
+      "sigungu": "괴산군",
+      "addr": "충청북도 괴산군 괴산읍 임꺽정로 92 괴산유기농엑스포광장 일원",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "lat": 36.8145153033,
+      "lng": 127.7865237323,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/64/4127264_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/64/4127264_image3_1.jpg",
+      "tel": "043-830-3463",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4114621",
       "title": "2026 대한민국 제주정원문화박람회",
       "sido": "제주",
@@ -13424,6 +13440,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/26/4131426_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/26/4131426_image3_1.jpg",
       "tel": "054-789-5485~6",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3524290",
+      "title": "하숙동 1번지",
+      "sido": "충남",
+      "sigungu": "공주시",
+      "addr": "충청남도 공주시 당간지주길 21 (반죽동)",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "lat": 36.4521815731,
+      "lng": 127.1231838902,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/68/4140168_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/68/4140168_image3_1.jpg",
+      "tel": "041-852-1321",
       "link": null,
       "source": "tourapi"
     },
@@ -13540,22 +13572,6 @@
       "source": "tourapi"
     },
     {
-      "id": "2872215",
-      "title": "고흥유자축제",
-      "sido": "전남",
-      "sigungu": "고흥군",
-      "addr": "전남광주통합특별시 고흥군 풍양면 한동리 701-7번지 일원",
-      "startDate": "2026-11-12",
-      "endDate": "2026-11-15",
-      "lat": 34.575091,
-      "lng": 127.232663,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4109413_image2_1.png",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/13/4109413_image3_1.png",
-      "tel": "061-830-5442",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "2769990",
       "title": "2026 대한민국 우리술 대축제",
       "sido": "서울",
@@ -13629,8 +13645,8 @@
       "endDate": "2026-11-14",
       "lat": 35.1144041132,
       "lng": 129.0464193172,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/97/4133597_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/97/4133597_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/61/4139461_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/61/4139461_image3_1.jpg",
       "tel": "070-4659-0409",
       "link": null,
       "source": "tourapi"
@@ -13968,6 +13984,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/64/4095564_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/64/4095564_image3_1.png",
       "tel": "070-4111-5620",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3035607",
+      "title": "광화문 마켓",
+      "sido": "서울",
+      "sigungu": "종로구",
+      "addr": "서울특별시 종로구 세종대로 지하172 (세종로)",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-10",
+      "lat": 37.5716249337,
+      "lng": 126.9767679222,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image3_1.jpg",
+      "tel": "02-3788-8105",
       "link": null,
       "source": "tourapi"
     },
