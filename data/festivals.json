@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-03T03:49:13.548Z",
+  "updatedAt": "2026-11-04T02:53:03.903Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 878,
+  "count": 881,
   "festivals": [
     {
       "id": "3481597",
@@ -736,22 +736,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/33/3588433_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/33/3588433_image3_1.jpg",
       "tel": "054-680-6450~6453",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "386053",
-      "title": "평창송어축제",
-      "sido": "강원",
-      "sigungu": "평창군",
-      "addr": "강원특별자치도 평창군 진부면 경강로 3562",
-      "startDate": "2026-01-09",
-      "endDate": "2026-02-09",
-      "lat": 37.6331795130163,
-      "lng": 128.556991232543,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/81/4002581_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/81/4002581_image3_1.jpg",
-      "tel": "033-336-4000",
       "link": null,
       "source": "tourapi"
     },
@@ -5444,22 +5428,6 @@
       "source": "tourapi"
     },
     {
-      "id": "1032770",
-      "title": "부산국제매직페스티벌",
-      "sido": "부산",
-      "sigungu": "해운대구",
-      "addr": "부산광역시 해운대구 수영강변대로 120 (우동)",
-      "startDate": "2026-06-26",
-      "endDate": "2026-06-26",
-      "lat": 35.1710365257136,
-      "lng": 129.127084511585,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/20/4064420_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/20/4064420_image3_1.jpg",
-      "tel": "051-626-7002",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "2550263",
       "title": "세미원 연꽃문화제",
       "sido": "경기",
@@ -5520,6 +5488,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/66/4074666_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/66/4074666_image3_1.jpg",
       "tel": "010-6461-0759",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "1032770",
+      "title": "부산국제매직페스티벌",
+      "sido": "부산",
+      "sigungu": "해운대구",
+      "addr": "부산광역시 해운대구 수영강변대로 120 (우동)",
+      "startDate": "2026-06-28",
+      "endDate": "2026-12-26",
+      "lat": 35.1710365257,
+      "lng": 129.1270845116,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/20/4064420_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/20/4064420_image3_1.jpg",
+      "tel": "051-626-7002",
       "link": null,
       "source": "tourapi"
     },
@@ -8372,6 +8356,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2034167",
+      "title": "평택호 물빛축제",
+      "sido": "경기",
+      "sigungu": "평택시",
+      "addr": "경기도 평택시 현덕면 평택호길 159",
+      "startDate": "2026-09-12",
+      "endDate": "2026-09-12",
+      "lat": 36.9214412612,
+      "lng": 126.9222261083,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/16/4107416_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/16/4107416_image3_1.jpg",
+      "tel": "031-669-0964",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3352029",
       "title": "포천 한탄강 가든페스타",
       "sido": "경기",
@@ -9629,8 +9629,8 @@
       "endDate": "2026-10-05",
       "lat": 36.8194430336,
       "lng": 127.1114520361,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/35/4056635_image2_1.JPG",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/35/4056635_image3_1.JPG",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/82/4143382_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/82/4143382_image3_1.jpg",
       "tel": "041-900-7021",
       "link": null,
       "source": "tourapi"
@@ -9757,8 +9757,8 @@
       "endDate": "2026-10-04",
       "lat": 35.1728573,
       "lng": 128.9681914,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/06/4040606_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/06/4040606_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/02/4143402_image2_1.jpeg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/02/4143402_image3_1.jpeg",
       "tel": "051-713-5000",
       "link": null,
       "source": "tourapi"
@@ -12740,6 +12740,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2867300",
+      "title": "평택 원평나루 억새축제",
+      "sido": "경기",
+      "sigungu": "평택시",
+      "addr": "경기도 평택시 평택동 238-2",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "lat": 36.9842467192,
+      "lng": 127.0810967851,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image3_1.jpg",
+      "tel": "031-669-0965",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3547712",
       "title": "한미친선 문화 한마당",
       "sido": "경기",
@@ -13328,6 +13344,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/49/3546549_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/49/3546549_image3_1.jpg",
       "tel": "055-330-3244",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4143368",
+      "title": "부락페스타",
+      "sido": "부산",
+      "sigungu": "금정구",
+      "addr": "부산광역시 금정구 장전로12번길 55 (장전동) 부산대역 1번출구 앞 차없는거리 일원",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08",
+      "lat": 35.2301056519,
+      "lng": 129.0881148708,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/69/4143369_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/69/4143369_image3_1.jpg",
+      "tel": "051-714-1469",
       "link": null,
       "source": "tourapi"
     },
@@ -14000,6 +14032,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/66/4113266_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/66/4113266_image3_1.jpg",
       "tel": "1644-7855",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "386053",
+      "title": "평창송어축제",
+      "sido": "강원",
+      "sigungu": "평창군",
+      "addr": "강원특별자치도 평창군 진부면 경강로 3562",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-31",
+      "lat": 37.633179513,
+      "lng": 128.5569912325,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/81/4002581_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/81/4002581_image3_1.jpg",
+      "tel": "033-336-4000",
       "link": null,
       "source": "tourapi"
     },
