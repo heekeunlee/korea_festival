@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T03:06:20.496Z",
+  "updatedAt": "2026-11-06T03:06:42.908Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 883,
+  "count": 885,
   "festivals": [
     {
       "id": "3481597",
@@ -5741,8 +5741,8 @@
       "endDate": "2026-07-12",
       "lat": 35.998765,
       "lng": 128.395932,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/06/4061206_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/06/4061206_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/86/4145486_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/86/4145486_image3_1.jpg",
       "tel": "054-979-3212",
       "link": null,
       "source": "tourapi"
@@ -9565,8 +9565,8 @@
       "endDate": "2026-10-05",
       "lat": 35.7540218787,
       "lng": 126.8522718951,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/54/3516354_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/54/3516354_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/79/4146279_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/79/4146279_image3_1.jpg",
       "tel": "063-540-3172",
       "link": null,
       "source": "tourapi"
@@ -9773,8 +9773,8 @@
       "endDate": "2026-10-04",
       "lat": 37.4944181127,
       "lng": 126.7229954336,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/77/4067377_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/77/4067377_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/50/4145250_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/50/4145250_image3_1.jpg",
       "tel": "032-509-7516",
       "link": null,
       "source": "tourapi"
@@ -11261,8 +11261,8 @@
       "endDate": "2026-10-18",
       "lat": 36.018468,
       "lng": 128.401094,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/66/4080666_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/66/4080666_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/03/4145403_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/03/4145403_image3_1.jpg",
       "tel": "054-979-3215",
       "link": null,
       "source": "tourapi"
@@ -11581,8 +11581,8 @@
       "endDate": "2026-10-25",
       "lat": 38.0156483829,
       "lng": 127.0614526431,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/43/4117543_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/43/4117543_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/14/4145114_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/14/4145114_image3_1.jpg",
       "tel": "031-839-4259",
       "link": null,
       "source": "tourapi"
@@ -13476,6 +13476,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3401306",
+      "title": "김포 해병대 문화축제 in 대명항",
+      "sido": "경기",
+      "sigungu": "김포시",
+      "addr": "경기도 김포시 대곶면 대명항1로 110-36 김포함상공원 및 대명항 일원",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "lat": 37.6400140918,
+      "lng": 126.539451725,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image3_1.jpg",
+      "tel": "031-980-5110",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4127761",
       "title": "마산야외도서관 [오롯이 마도로]",
       "sido": "경남",
@@ -13520,6 +13536,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/83/4116983_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/83/4116983_image3_1.jpg",
       "tel": "031-883-0031",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3555835",
+      "title": "안산사이언스밸리(ASV) 과학축제",
+      "sido": "경기",
+      "sigungu": "안산시",
+      "addr": "경기도 안산시 상록구 한양대학로 55 (사동) 한양대학교 ERICA캠퍼스",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-08",
+      "lat": 37.3001630571,
+      "lng": 126.8377108256,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image3_1.jpg",
+      "tel": "02-780-6881",
       "link": null,
       "source": "tourapi"
     },
@@ -13588,22 +13620,6 @@
       "source": "tourapi"
     },
     {
-      "id": "4113301",
-      "title": "2026 렉키의 수상한 피크닉",
-      "sido": "경남",
-      "sigungu": "창원시",
-      "addr": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-14",
-      "lat": 35.1782828634,
-      "lng": 128.5809535308,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/96/4142596_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/96/4142596_image3_1.jpg",
-      "tel": "02-6953-7101",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "2995190",
       "title": "누들대전축제",
       "sido": "대전",
@@ -13620,6 +13636,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2613615",
+      "title": "영주 사과축제",
+      "sido": "서울",
+      "sigungu": "중구",
+      "addr": "서울 중구 태평로1가 1 청계광장",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15",
+      "lat": 37.5690746935,
+      "lng": 126.977592121,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image3_1.jpg",
+      "tel": "054-630-8706",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4137577",
       "title": "2026 국민건강 리부트 마음건강 걷기대회",
       "sido": "세종",
@@ -13632,6 +13664,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/78/4137578_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/78/4137578_image3_1.jpg",
       "tel": "044-251-7113",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4113301",
+      "title": "2026 렉키의 수상한 피크닉",
+      "sido": "경남",
+      "sigungu": "창원시",
+      "addr": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "lat": 35.1782828634,
+      "lng": 128.5809535308,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/96/4142596_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/96/4142596_image3_1.jpg",
+      "tel": "02-6953-7101",
       "link": null,
       "source": "tourapi"
     },
@@ -13744,22 +13792,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image3_1.png",
       "tel": "02-546-7378",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "506627",
-      "title": "최남단방어축제",
-      "sido": "제주",
-      "sigungu": "서귀포시",
-      "addr": "제주특별자치도 서귀포시 대정읍 최남단해안로 66 모슬포항 일원",
-      "startDate": "2026-11-19",
-      "endDate": "2026-11-22",
-      "lat": 33.2144983016,
-      "lng": 126.2520492078,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/12/4141112_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/12/4141112_image3_1.jpg",
-      "tel": "064-794-8032",
       "link": null,
       "source": "tourapi"
     },
