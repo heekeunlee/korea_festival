@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T03:06:42.908Z",
+  "updatedAt": "2026-11-07T02:31:28.136Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 885,
+  "count": 886,
   "festivals": [
     {
       "id": "3481597",
@@ -48,22 +48,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/26/3460726_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/26/3460726_image3_1.jpg",
       "tel": "062-515-6560",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1855589",
-      "title": "제19회 전북청소년영화제",
-      "sido": "전북",
-      "sigungu": "전주시",
-      "addr": "전북특별자치도 전주시 완산구 전주객사3길 34 (고사동)",
-      "startDate": "2025-11-07",
-      "endDate": "2025-11-08",
-      "lat": 35.8188247887,
-      "lng": 127.1423260609,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/64/3563364_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/64/3563364_image3_1.jpg",
-      "tel": "063-253-4045",
       "link": null,
       "source": "tourapi"
     },
@@ -336,22 +320,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/04/3581704_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/04/3581704_image3_1.jpg",
       "tel": "02-2133-1936",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1095732",
-      "title": "서울빛초롱축제",
-      "sido": "서울",
-      "sigungu": "중구",
-      "addr": "서울특별시 중구 태평로1가 1(청계광장~삼일교) ※우이천은 연장 안합니다.",
-      "startDate": "2025-12-12",
-      "endDate": "2026-01-18",
-      "lat": 37.569204,
-      "lng": 126.977633,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/20/3563320_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/20/3563320_image3_1.jpg",
-      "tel": "02-3788-8168",
       "link": null,
       "source": "tourapi"
     },
@@ -10637,8 +10605,8 @@
       "endDate": "2026-10-11",
       "lat": 36.3550147634,
       "lng": 127.3844077341,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/21/4117021_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/21/4117021_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/35/4147835_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/35/4147835_image3_1.jpg",
       "tel": "042-288-2740",
       "link": null,
       "source": "tourapi"
@@ -10797,8 +10765,8 @@
       "endDate": "2026-10-17",
       "lat": 36.0294710365,
       "lng": 129.373276886,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/31/4119231_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/31/4119231_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/16/4147316_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/16/4147316_image3_1.jpg",
       "tel": "054-270-2248",
       "link": null,
       "source": "tourapi"
@@ -12074,11 +12042,11 @@
       "sigungu": "강동구",
       "addr": "서울특별시 강동구 선사로 83-19 (천호동)",
       "startDate": "2026-10-18",
-      "endDate": "2026-11-29",
+      "endDate": "2026-11-22",
       "lat": 37.5452481279,
       "lng": 127.1179813872,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/63/4147163_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/63/4147163_image3_1.jpg",
       "tel": "1644-6155",
       "link": null,
       "source": "tourapi"
@@ -12932,6 +12900,22 @@
       "source": "tourapi"
     },
     {
+      "id": "1399532",
+      "title": "부산고등어축제",
+      "sido": "부산",
+      "sigungu": "서구",
+      "addr": "부산광역시 서구 송도해변로 100 (암남동) 부산송도해수욕장",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-01",
+      "lat": 35.0768199166,
+      "lng": 129.0180494791,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/83/4120983_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/83/4120983_image3_1.jpg",
+      "tel": "051-231-4085",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3012116",
       "title": "부여국화축제",
       "sido": "충남",
@@ -13716,6 +13700,22 @@
       "source": "tourapi"
     },
     {
+      "id": "4147845",
+      "title": "순천 올랑가 일일마켓",
+      "sido": "전남",
+      "sigungu": "순천시",
+      "addr": "전남광주통합특별시 순천시 별미길 18 (남내동)",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "lat": 34.9536637379,
+      "lng": 127.4851328015,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/46/4147846_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/46/4147846_image3_1.jpg",
+      "tel": "070-4902-8266",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4115275",
       "title": "쿼드, 연극의 질문들：〈화염〉",
       "sido": "서울",
@@ -13856,22 +13856,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image3_1.jpg",
       "tel": "02-724-6319",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3301415",
-      "title": "무안 YD 페스티벌",
-      "sido": "전남",
-      "sigungu": "무안군",
-      "addr": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16 남악중앙공원",
-      "startDate": "2026-11-20",
-      "endDate": "2026-11-22",
-      "lat": 34.8111428583,
-      "lng": 126.4628109019,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image3_1.JPG",
-      "tel": "061-450-5474",
       "link": null,
       "source": "tourapi"
     },
@@ -14068,6 +14052,22 @@
       "source": "tourapi"
     },
     {
+      "id": "1095732",
+      "title": "서울빛초롱축제",
+      "sido": "서울",
+      "sigungu": "중구",
+      "addr": "서울특별시 중구 태평로1가 1 청계천(청계광장 ~ 삼일교)",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-31",
+      "lat": 37.569204,
+      "lng": 126.977633,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/35/4147235_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/35/4147235_image3_1.jpg",
+      "tel": "02-3788-8168",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4115260",
       "title": "쿼드, 연극의 질문들：〈서안화차〉",
       "sido": "서울",
@@ -14160,6 +14160,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/07/4105707_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/07/4105707_image3_1.jpg",
       "tel": "02-761-2586",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2614198",
+      "title": "2027 ACE Fair",
+      "sido": "광주",
+      "sigungu": "서구",
+      "addr": "전남광주통합특별시 서구 상무누리로 30",
+      "startDate": "2027-09-23",
+      "endDate": "2027-09-26",
+      "lat": 35.1468884464,
+      "lng": 126.8405217823,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/34/4147834_image3_1.jpg",
+      "tel": "062-611-2242",
       "link": null,
       "source": "tourapi"
     }
