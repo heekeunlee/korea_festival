@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-08T02:01:25.649Z",
+  "updatedAt": "2026-11-09T02:21:04.698Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 886,
+  "count": 885,
   "festivals": [
     {
       "id": "3481597",
@@ -64,22 +64,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/01/3553701_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/01/3553701_image3_1.jpg",
       "tel": "070-5226-0759",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3557782",
-      "title": "개항장 댕댕 도서관",
-      "sido": "인천",
-      "sigungu": "제물포구",
-      "addr": "인천광역시 제물포구 월미로 33 (북성동1가)",
-      "startDate": "2025-11-08",
-      "endDate": "2025-11-08",
-      "lat": 37.4761360618,
-      "lng": 126.6146650689,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/81/3557781_image2_1.png",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/81/3557781_image3_1.png",
-      "tel": "010-8456-2948",
       "link": null,
       "source": "tourapi"
     },
