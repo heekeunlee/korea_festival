@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-09T02:21:04.698Z",
+  "updatedAt": "2026-11-10T04:28:37.274Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 885,
+  "count": 886,
   "festivals": [
     {
       "id": "3481597",
@@ -48,22 +48,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/26/3460726_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/26/3460726_image3_1.jpg",
       "tel": "062-515-6560",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2856063",
-      "title": "2025 인천공항 스카이페스티벌",
-      "sido": "인천",
-      "sigungu": "영종구",
-      "addr": "인천광역시 영종구 공항문화로 127 (운서동)",
-      "startDate": "2025-11-08",
-      "endDate": "2025-11-09",
-      "lat": 37.4657083226,
-      "lng": 126.389349822,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/01/3553701_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/01/3553701_image3_1.jpg",
-      "tel": "070-5226-0759",
       "link": null,
       "source": "tourapi"
     },
@@ -13700,6 +13684,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2646950",
+      "title": "진안고원 김치보쌈축제",
+      "sido": "전북",
+      "sigungu": "진안군",
+      "addr": "전북특별자치도 진안군 진안읍 진무로 1166 진안로컬푸드진안점",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "lat": 35.7953163124,
+      "lng": 127.4339300277,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/78/4149678_image2_1.jpeg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/78/4149678_image3_1.jpeg",
+      "tel": "063-433-6613",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4115275",
       "title": "쿼드, 연극의 질문들：〈화염〉",
       "sido": "서울",
@@ -13840,6 +13840,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image3_1.jpg",
       "tel": "02-724-6319",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3301415",
+      "title": "무안 YD 페스티벌",
+      "sido": "전남",
+      "sigungu": "무안군",
+      "addr": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16 남악중앙공원",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22",
+      "lat": 34.8111428583,
+      "lng": 126.4628109019,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image3_1.JPG",
+      "tel": "061-450-5474",
       "link": null,
       "source": "tourapi"
     },
