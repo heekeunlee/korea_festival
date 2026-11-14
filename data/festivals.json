@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-13T03:07:13.172Z",
+  "updatedAt": "2026-11-14T02:53:52.512Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 888,
+  "count": 887,
   "festivals": [
     {
       "id": "3481597",
@@ -32,22 +32,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/89/4024089_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/89/4024089_image3_1.jpg",
       "tel": "070-8810-2420",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "629742",
-      "title": "제46회 서울무용제",
-      "sido": "서울",
-      "sigungu": "종로구",
-      "addr": "서울특별시 종로구 대학로8길 7 (동숭동)",
-      "startDate": "2025-11-21",
-      "endDate": "2025-12-07",
-      "lat": 37.5812640855,
-      "lng": 127.0029878163,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/87/3567087_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/87/3567087_image3_1.jpg",
-      "tel": "02-744-8066",
       "link": null,
       "source": "tourapi"
     },
@@ -2619,8 +2603,8 @@
       "addr": "강원특별자치도 태백시 장성1길 175-1 (장성동)",
       "startDate": "2026-04-24",
       "endDate": "2026-04-26",
-      "lat": 37.1013472523941,
-      "lng": 129.00789068775,
+      "lat": 37.1013472524,
+      "lng": 129.0078906878,
       "image": "https://tong.visitkorea.or.kr/cms/resource/07/4058907_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/07/4058907_image3_1.jpg",
       "tel": "033-550-2726",
@@ -13965,8 +13949,8 @@
       "endDate": "2027-01-10",
       "lat": 35.1592056511,
       "lng": 129.1615365475,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/12/3576412_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/12/3576412_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/41/4155841_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/41/4155841_image3_1.jpg",
       "tel": "051-749-4062",
       "link": null,
       "source": "tourapi"
