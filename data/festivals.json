@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-18T04:00:13.482Z",
+  "updatedAt": "2026-11-19T03:57:20.193Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 884,
+  "count": 886,
   "festivals": [
     {
       "id": "3481597",
@@ -96,22 +96,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/47/3575947_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/47/3575947_image3_1.jpg",
       "tel": "010-4679-3810",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "1762432",
-      "title": "양평빙송어축제",
-      "sido": "경기",
-      "sigungu": "양평군",
-      "addr": "경기도 양평군 곱다니길 55-2 봉상2리 일원",
-      "startDate": "2025-12-06",
-      "endDate": "2026-03-02",
-      "lat": 37.514550408,
-      "lng": 127.6574135888,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/93/3108393_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/93/3108393_image3_1.jpg",
-      "tel": "031-775-5205",
       "link": null,
       "source": "tourapi"
     },
@@ -224,22 +208,6 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/21/3580521_image2_1.jpg",
       "thumb": "http://tong.visitkorea.or.kr/cms/resource/21/3580521_image3_1.jpg",
       "tel": "031-536-9917",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "2802077",
-      "title": "2025 과학영재교육 페스티벌",
-      "sido": "서울",
-      "sigungu": "강남구",
-      "addr": "서울특별시 강남구 테헤란로7길 22 (역삼동)",
-      "startDate": "2025-12-23",
-      "endDate": "2025-12-23",
-      "lat": 37.5007739351,
-      "lng": 127.0307542337,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/28/3572728_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/28/3572728_image3_1.jpg",
-      "tel": "070-8803-6226",
       "link": null,
       "source": "tourapi"
     },
@@ -5104,6 +5072,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/73/4067473_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/73/4067473_image3_1.jpg",
       "tel": "051-714-4674",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2725188",
+      "title": "경흥대로 도봉옛길 문화제",
+      "sido": "서울",
+      "sigungu": "도봉구",
+      "addr": "서울특별시 도봉구 도봉동 1-8",
+      "startDate": "2026-06-20",
+      "endDate": "2026-06-20",
+      "lat": 37.691173,
+      "lng": 127.048657,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/75/4060575_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/75/4060575_image3_1.JPG",
+      "tel": "02-905-4026",
       "link": null,
       "source": "tourapi"
     },
@@ -13956,6 +13940,22 @@
       "source": "tourapi"
     },
     {
+      "id": "1762432",
+      "title": "양평빙송어축제",
+      "sido": "경기",
+      "sigungu": "양평군",
+      "addr": "경기도 양평군 곱다니길 55-2 봉상2리 일원",
+      "startDate": "2026-12-05",
+      "endDate": "2027-03-07",
+      "lat": 37.5144962722,
+      "lng": 127.6573930025,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/82/4164382_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/82/4164382_image3_1.JPG",
+      "tel": "031-775-5205",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4095478",
       "title": "부산브릿지마라톤",
       "sido": "부산",
@@ -13968,6 +13968,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/64/4095564_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/64/4095564_image3_1.png",
       "tel": "070-4111-5620",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2515174",
+      "title": "2026 전국민 AI 페스티벌",
+      "sido": "서울",
+      "sigungu": "중구",
+      "addr": "서울특별시 중구 을지로 281 (을지로7가)",
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-13",
+      "lat": 37.5680445877,
+      "lng": 127.0108903555,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/18/4165118_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/18/4165118_image3_1.jpg",
+      "tel": "02-336-1876",
       "link": null,
       "source": "tourapi"
     },
@@ -14048,6 +14064,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/51/4159151_image3_1.jpg",
       "tel": "061-320-2247",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "2802077",
+      "title": "2026 과학영재교육 페스티벌",
+      "sido": "서울",
+      "sigungu": "강남구",
+      "addr": "서울특별시 강남구 테헤란로7길 22 (역삼동)",
+      "startDate": "2026-12-23",
+      "endDate": "2026-12-23",
+      "lat": 37.5007217702,
+      "lng": 127.030740311,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image3_1.jpg",
+      "tel": "02-559-3887",
       "link": null,
       "source": "tourapi"
     },
