@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-19T03:57:20.193Z",
+  "updatedAt": "2026-11-20T03:51:32.269Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 886,
+  "count": 887,
   "festivals": [
     {
       "id": "3481597",
@@ -6032,22 +6032,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/98/4085498_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/98/4085498_image3_1.jpg",
       "tel": "053-662-4072",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "4088149",
-      "title": "발코니 뮤직쇼 앤 스트릿 페스타",
-      "sido": "부산",
-      "sigungu": "중구",
-      "addr": "부산광역시 중구 광복로 72-1 (광복동2가)",
-      "startDate": "2026-07-25",
-      "endDate": "2026-07-25",
-      "lat": 35.0985979131,
-      "lng": 129.0327114585,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/50/4088150_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/50/4088150_image3_1.jpg",
-      "tel": "070-4006-6849",
       "link": null,
       "source": "tourapi"
     },
@@ -13828,6 +13812,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3578130",
+      "title": "울산 크리스마스 마켓",
+      "sido": "울산",
+      "sigungu": "남구",
+      "addr": "울산광역시 남구 대공원로 94 (옥동)",
+      "startDate": "2026-11-27",
+      "endDate": "2026-12-26",
+      "lat": 35.5316566254,
+      "lng": 129.2935190325,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image3_1.jpg",
+      "tel": "052-271-8701",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "4111479",
       "title": "제3회 추도 섬 영화제",
       "sido": "경남",
@@ -13936,6 +13936,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/70/4109170_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/70/4109170_image3_1.jpg",
       "tel": "02-332-3997",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4088149",
+      "title": "발코니 뮤직쇼 앤 스트릿 페스타",
+      "sido": "부산",
+      "sigungu": "중구",
+      "addr": "부산광역시 중구 광복로 72-1 (광복동2가) 광복로 일원",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-05",
+      "lat": 35.0985979131,
+      "lng": 129.0327114585,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/37/4166437_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/37/4166437_image3_1.jpg",
+      "tel": "051-780-4151",
       "link": null,
       "source": "tourapi"
     },
