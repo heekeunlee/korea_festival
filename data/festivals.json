@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T06:42:40.737Z",
+  "updatedAt": "2026-11-25T05:13:13.026Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
   "count": 887,
   "festivals": [
@@ -75,11 +75,11 @@
       "addr": "전북특별자치도 부안군 부안읍 서외리 55-3 부안상설시장 야외주차장",
       "startDate": "2025-12-05",
       "endDate": "2025-12-06",
-      "lat": 35.7272448141,
-      "lng": 126.7312455993,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/47/3575947_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/47/3575947_image3_1.jpg",
-      "tel": "010-4679-3810",
+      "lat": 35.727202,
+      "lng": 126.731234,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/47/3575947_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/47/3575947_image3_1.jpg",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -196,22 +196,6 @@
       "source": "tourapi"
     },
     {
-      "id": "2641128",
-      "title": "수성빛예술제",
-      "sido": "대구",
-      "sigungu": "수성구",
-      "addr": "대구광역시 수성구 무학로 112 (두산동) 수성못",
-      "startDate": "2025-12-24",
-      "endDate": "2026-01-04",
-      "lat": 35.829419486,
-      "lng": 128.6206032541,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/12/3578312_image2_1.JPG",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/12/3578312_image3_1.JPG",
-      "tel": "053-668-1504",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
       "id": "3581975",
       "title": "오픈 포트 크리스마스 : 불멍 (Open Port Christmas)",
       "sido": "인천",
@@ -224,22 +208,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/13/3581913_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/13/3581913_image3_1.png",
       "tel": "010-8456-2948",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3049823",
-      "title": "겨울엔 양평, 불빛:애",
-      "sido": "경기",
-      "sigungu": "양평군",
-      "addr": "경기도 양평군 양평읍 군청앞길 2",
-      "startDate": "2025-12-31",
-      "endDate": "2025-12-31",
-      "lat": 37.491696739,
-      "lng": 127.4874108883,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/26/3588926_image2_1.png",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/26/3588926_image3_1.png",
-      "tel": "031-770-1072",
       "link": null,
       "source": "tourapi"
     },
@@ -491,11 +459,11 @@
       "addr": "충청남도 홍성군 서부면 남당항로213번길 1-1 홍성남당항 일원",
       "startDate": "2026-01-17",
       "endDate": "2026-04-30",
-      "lat": 36.538830901849224,
-      "lng": 126.47228311637501,
+      "lat": 36.5388309018,
+      "lng": 126.4722831164,
       "image": "https://tong.visitkorea.or.kr/cms/resource/69/3469769_image2_1.JPG",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/69/3469769_image3_1.JPG",
-      "tel": "010-5433-8196",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -2955,11 +2923,11 @@
       "addr": "전북특별자치도 고창군 심원면 서전길 55-21 하전어촌체험마을",
       "startDate": "2026-05-01",
       "endDate": "2026-05-03",
-      "lat": 35.54009847598224,
-      "lng": 126.56170991377171,
+      "lat": 35.540098476,
+      "lng": 126.5617099138,
       "image": "https://tong.visitkorea.or.kr/cms/resource/29/4059329_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/29/4059329_image3_1.jpg",
-      "tel": "010-5721-1144  063 563-0117063-564-8831",
+      "tel": "063 563-0117063-564-8831",
       "link": null,
       "source": "tourapi"
     },
@@ -3551,7 +3519,7 @@
       "lng": 127.0095547691,
       "image": "https://tong.visitkorea.or.kr/cms/resource/13/4070713_image2_1.JPG",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/13/4070713_image3_1.JPG",
-      "tel": "010-8156-2661",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -3691,11 +3659,11 @@
       "addr": "부산광역시 영도구 해양로301번길 55 아미르공원 및 블루포트2021",
       "startDate": "2026-05-15",
       "endDate": "2026-05-17",
-      "lat": 35.0771644165947,
-      "lng": 129.081954798294,
+      "lat": 35.0771644166,
+      "lng": 129.0819547983,
       "image": "https://tong.visitkorea.or.kr/cms/resource/73/4060873_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/73/4060873_image3_1.jpg",
-      "tel": "010-6443-0799",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -4495,7 +4463,7 @@
       "lng": 126.9868918551,
       "image": "https://tong.visitkorea.or.kr/cms/resource/62/4069862_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/62/4069862_image3_1.jpg",
-      "tel": "070-4266-5367010-5149-5313",
+      "tel": "070-4266-5367",
       "link": null,
       "source": "tourapi"
     },
@@ -5215,7 +5183,7 @@
       "lng": 126.5238513705,
       "image": "https://tong.visitkorea.or.kr/cms/resource/66/4074666_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/66/4074666_image3_1.jpg",
-      "tel": "010-6461-0759",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -5647,7 +5615,7 @@
       "lng": 128.9895710269,
       "image": "https://tong.visitkorea.or.kr/cms/resource/89/4108389_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/89/4108389_image3_1.jpg",
-      "tel": "010-3371-2000",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -5903,7 +5871,7 @@
       "lng": 129.0358787709,
       "image": "https://tong.visitkorea.or.kr/cms/resource/18/4080818_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/18/4080818_image3_1.jpg",
-      "tel": "010-6443-0799 (피란수도 부산 국가유산 야행 사무국)",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -7375,7 +7343,7 @@
       "lng": 126.4722831164,
       "image": "https://tong.visitkorea.or.kr/cms/resource/72/4100472_image2_1.JPG",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/72/4100472_image3_1.JPG",
-      "tel": "010-5433-8196",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -7775,7 +7743,7 @@
       "lng": 127.202000967,
       "image": "https://tong.visitkorea.or.kr/cms/resource/32/4114332_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/32/4114332_image3_1.png",
-      "tel": "010-2659-9728",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -8719,7 +8687,7 @@
       "lng": 127.0283079009,
       "image": "https://tong.visitkorea.or.kr/cms/resource/11/4110411_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/11/4110411_image3_1.png",
-      "tel": "010-9771-2090",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -8751,7 +8719,7 @@
       "lng": 129.1818960826,
       "image": "https://tong.visitkorea.or.kr/cms/resource/44/4093144_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/44/4093144_image3_1.jpg",
-      "tel": "010-3880-4966",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -8783,7 +8751,7 @@
       "lng": 128.596184078,
       "image": "https://tong.visitkorea.or.kr/cms/resource/62/4109662_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/62/4109662_image3_1.jpg",
-      "tel": "010-2892-3792",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -10415,7 +10383,7 @@
       "lng": 127.7542477259,
       "image": "https://tong.visitkorea.or.kr/cms/resource/36/4117136_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/36/4117136_image3_1.jpg",
-      "tel": "010-2728-1054",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -12319,7 +12287,7 @@
       "lng": 127.0064555293,
       "image": "https://tong.visitkorea.or.kr/cms/resource/06/4134806_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/06/4134806_image3_1.jpg",
-      "tel": "010-6232-3485",
+      "tel": null,
       "link": null,
       "source": "tourapi"
     },
@@ -14084,6 +14052,22 @@
       "source": "tourapi"
     },
     {
+      "id": "2641128",
+      "title": "수성빛예술제",
+      "sido": "대구",
+      "sigungu": "수성구",
+      "addr": "대구광역시 수성구 무학로 112 (두산동) 수성못",
+      "startDate": "2026-12-24",
+      "endDate": "2027-01-03",
+      "lat": 35.8293753137,
+      "lng": 128.6205782501,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/58/4173758_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/58/4173758_image3_1.JPG",
+      "tel": "053-668-1504",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "2933428",
       "title": "울산 성남동 눈꽃축제",
       "sido": "울산",
@@ -14096,6 +14080,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/64/3586264_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/64/3586264_image3_1.jpg",
       "tel": "010-4825-0560",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "3049823",
+      "title": "제4회 겨울엔 양평",
+      "sido": "경기",
+      "sigungu": "양평군",
+      "addr": "경기도 양평군 양평읍 양평시장길 11-1",
+      "startDate": "2026-12-31",
+      "endDate": "2026-12-31",
+      "lat": 37.4898308439,
+      "lng": 127.4920824556,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/63/4173763_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/63/4173763_image3_1.jpg",
+      "tel": "031-770-1072",
       "link": null,
       "source": "tourapi"
     },
