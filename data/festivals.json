@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-26T04:41:21.191Z",
+  "updatedAt": "2026-11-27T04:45:23.593Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 885,
+  "count": 886,
   "festivals": [
     {
       "id": "3481597",
@@ -160,22 +160,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/13/3581913_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/13/3581913_image3_1.png",
       "tel": "010-8456-2948",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "141375",
-      "title": "울주 간절곶 해맞이",
-      "sido": "울산",
-      "sigungu": "울주군",
-      "addr": "울산광역시 울주군 서생면 대송리 간절곶",
-      "startDate": "2025-12-31",
-      "endDate": "2026-01-01",
-      "lat": 35.3591723598,
-      "lng": 129.3619181517,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/79/3588879_image2_1.jpg",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/79/3588879_image2_1.jpg",
-      "tel": "052-980-2232",
       "link": null,
       "source": "tourapi"
     },
@@ -13844,6 +13828,22 @@
       "source": "tourapi"
     },
     {
+      "id": "4178037",
+      "title": "서울한국춤페스티벌",
+      "sido": "서울",
+      "sigungu": "중구",
+      "addr": "서울특별시 중구 퇴계로34길 28 (필동2가) 남산골한옥마을",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-08",
+      "lat": 37.55954227,
+      "lng": 126.9947387353,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/40/4178040_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/40/4178040_image3_1.JPG",
+      "tel": "1800-4746",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "2515174",
       "title": "2026 전국민 AI 페스티벌",
       "sido": "서울",
@@ -13940,6 +13940,22 @@
       "source": "tourapi"
     },
     {
+      "id": "4178087",
+      "title": "제3회 익산 크리스마스 마켓",
+      "sido": "전북",
+      "sigungu": "익산시",
+      "addr": "전북특별자치도 익산시 중앙로 12-151 (중앙동2가)",
+      "startDate": "2026-12-18",
+      "endDate": "2026-12-25",
+      "lat": 35.9381102381,
+      "lng": 126.948006124,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/91/4178091_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/91/4178091_image3_1.png",
+      "tel": "063-853-6783",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3432658",
       "title": "함평 겨울빛축제",
       "sido": "전남",
@@ -13965,8 +13981,8 @@
       "endDate": "2026-12-23",
       "lat": 37.5007217702,
       "lng": 127.030740311,
-      "image": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image2_1.jpg",
-      "thumb": "https://tong.visitkorea.or.kr/cms/resource/12/4165112_image3_1.jpg",
+      "image": "https://tong.visitkorea.or.kr/cms/resource/16/4176716_image2_1.jpg",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/16/4176716_image3_1.jpg",
       "tel": "02-559-3887",
       "link": null,
       "source": "tourapi"
