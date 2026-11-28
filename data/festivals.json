@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-27T04:45:23.593Z",
+  "updatedAt": "2026-11-28T04:29:34.597Z",
   "source": "TourAPI (한국관광공사) / data.go.kr + 수동 보강",
-  "count": 886,
+  "count": 887,
   "festivals": [
     {
       "id": "3481597",
@@ -32,22 +32,6 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/89/4024089_image2_1.jpg",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/89/4024089_image3_1.jpg",
       "tel": "070-8810-2420",
-      "link": null,
-      "source": "tourapi"
-    },
-    {
-      "id": "3576410",
-      "title": "광복로 겨울빛 트리축제",
-      "sido": "부산",
-      "sigungu": "중구",
-      "addr": "부산광역시 중구 광복로 72-1 (광복동2가) 부산 광복로, 광복중앙로 일원",
-      "startDate": "2025-12-05",
-      "endDate": "2026-02-22",
-      "lat": 35.0986398717,
-      "lng": 129.0327400915,
-      "image": "http://tong.visitkorea.or.kr/cms/resource/05/3576405_image2_1.JPG",
-      "thumb": "http://tong.visitkorea.or.kr/cms/resource/05/3576405_image3_1.JPG",
-      "tel": "051-714-4758",
       "link": null,
       "source": "tourapi"
     },
@@ -12933,7 +12917,7 @@
     },
     {
       "id": "3028462",
-      "title": "구미라면 축제",
+      "title": "구미라면축제",
       "sido": "경북",
       "sigungu": "구미시",
       "addr": "경상북도 구미시 역전로",
@@ -13476,6 +13460,22 @@
       "source": "tourapi"
     },
     {
+      "id": "3301415",
+      "title": "무안 YD 페스티벌",
+      "sido": "전남",
+      "sigungu": "무안군",
+      "addr": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16 남악중앙공원",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22",
+      "lat": 34.8111428583,
+      "lng": 126.4628109019,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image3_1.JPG",
+      "tel": "061-450-5474",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
       "id": "3470738",
       "title": "2026 런트립 남해! FALL & FUN",
       "sido": "경남",
@@ -13632,6 +13632,22 @@
       "image": "https://tong.visitkorea.or.kr/cms/resource/49/4130849_image2_1.png",
       "thumb": "https://tong.visitkorea.or.kr/cms/resource/49/4130849_image3_1.png",
       "tel": "070-4680-1718",
+      "link": null,
+      "source": "tourapi"
+    },
+    {
+      "id": "4179229",
+      "title": "거제 K-푸드로드 92데이",
+      "sido": "경남",
+      "sigungu": "거제시",
+      "addr": "경상남도 거제시 옥포로6길 16 (옥포동) 옥포 삼겹살 거리",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-29",
+      "lat": 34.8907759762,
+      "lng": 128.6953285292,
+      "image": "https://tong.visitkorea.or.kr/cms/resource/39/4179239_image2_1.png",
+      "thumb": "https://tong.visitkorea.or.kr/cms/resource/39/4179239_image3_1.png",
+      "tel": "0507-1312-9577",
       "link": null,
       "source": "tourapi"
     },
